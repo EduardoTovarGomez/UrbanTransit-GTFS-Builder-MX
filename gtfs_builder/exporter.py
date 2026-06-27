@@ -72,10 +72,10 @@ class GTFSExporter:
                 "route_type"
             ])
 
-            for i, route in enumerate(routes, start=1):
+            for route in routes:
 
                 writer.writerow([
-                    i,
+                    route.route_id,
                     route.name,
                     route.name,
                     3
@@ -109,4 +109,26 @@ class GTFSExporter:
                 "shape_pt_sequence"
             ])
 
-        print("✅ shapes.txt generado correctamente.")
+            total_points = 0
+
+            for route in routes:
+
+                sequence = 1
+
+                for point in route.points:
+
+                    lon, lat, *_ = point.split(",")
+
+                    writer.writerow([
+                        route.route_id,
+                        lat,
+                        lon,
+                        sequence
+                    ])
+
+                    sequence += 1
+                    total_points += 1
+
+                print(f"   ✔ {route.name}: {sequence - 1} puntos")
+
+        print(f"\n✅ shapes.txt generado correctamente ({total_points} puntos).")

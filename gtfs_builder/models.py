@@ -31,5 +31,6 @@ class Route:
     def to_dict(self):
         return {
             "route_id": self.route_id,
-            "route_name": self.name
+            "route_name": self.name,
+            "points": self.points
         }

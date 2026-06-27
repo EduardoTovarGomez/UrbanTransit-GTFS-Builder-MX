@@ -50,7 +50,9 @@ class KMLParser:
                 "{http://www.opengis.net/kml/2.2}LineString"
             )
 
-            # -------- PARADAS --------
+            # ==========================
+            # PARADAS
+            # ==========================
 
             if punto is not None:
 
@@ -74,7 +76,9 @@ class KMLParser:
 
                 print(f"🚌 {stop}")
 
-            # -------- RUTAS --------
+            # ==========================
+            # RUTAS
+            # ==========================
 
             elif linea is not None:
 
@@ -96,3 +100,9 @@ class KMLParser:
                 self.routes.append(route)
 
                 print(f"🛣️ {route}")
+
+        print("\n===================================")
+        print("RESUMEN DEL PARSER")
+        print("===================================")
+        print(f"Paradas encontradas : {len(self.stops)}")
+        print(f"Rutas encontradas   : {len(self.routes)}")
