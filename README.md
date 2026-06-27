@@ -47,6 +47,14 @@ UrbanTransit-GTFS-Builder-MX/
 ```
 
 ---
+## Estado del proyecto
+
+- ✅ stops.txt
+- ✅ routes.txt
+- ✅ shapes.txt
+- 🚧 trips.txt
+- 🚧 stop_times.txt
+- 🚧 calendar.txt
 
 ## 🇲🇽 Designed in Mexico
 
