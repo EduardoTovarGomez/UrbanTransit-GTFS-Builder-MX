@@ -34,3 +34,24 @@ class Route:
             "route_name": self.name,
             "points": self.points
         }
+
+
+class Trip:
+
+    def __init__(self, trip_id, route_id, shape_id, service_id="WEEKDAY"):
+
+        self.trip_id = trip_id
+        self.route_id = route_id
+        self.shape_id = shape_id
+        self.service_id = service_id
+
+    def __str__(self):
+        return f"Trip {self.trip_id}"
+
+    def to_dict(self):
+        return {
+            "trip_id": self.trip_id,
+            "route_id": self.route_id,
+            "service_id": self.service_id,
+            "shape_id": self.shape_id
+        }

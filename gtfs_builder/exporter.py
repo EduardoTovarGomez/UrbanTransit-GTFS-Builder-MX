@@ -132,3 +132,40 @@ class GTFSExporter:
                 print(f"   ✔ {route.name}: {sequence - 1} puntos")
 
         print(f"\n✅ shapes.txt generado correctamente ({total_points} puntos).")
+        
+    # ==========================================
+    # TRIPS.TXT
+    # ==========================================
+
+    def export_trips(self, trips):
+
+        print("\n📄 Generando trips.txt...")
+
+        archivo = self.output_folder / "trips.txt"
+
+        with open(
+            archivo,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "route_id",
+                "service_id",
+                "trip_id",
+                "shape_id"
+            ])
+
+            for trip in trips:
+
+                writer.writerow([
+                    trip.route_id,
+                    trip.service_id,
+                    trip.trip_id,
+                    trip.shape_id
+                ])
+
+        print("✅ trips.txt generado correctamente.")
