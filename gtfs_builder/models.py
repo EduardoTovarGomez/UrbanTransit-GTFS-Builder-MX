@@ -21,24 +21,19 @@ class Stop:
 class Route:
 
     def __init__(self, route_id, name, points):
+
         self.route_id = route_id
         self.name = name
         self.points = points
 
     def __str__(self):
-        return f"{self.name} ({len(self.points)} puntos)"
 
-    def to_dict(self):
-        return {
-            "route_id": self.route_id,
-            "route_name": self.name,
-            "points": self.points
-        }
+        return f"{self.name} ({len(self.points)} puntos)"
 
 
 class Trip:
 
-    def __init__(self, trip_id, route_id, shape_id, service_id="WEEKDAY"):
+    def __init__(self, trip_id, route_id, shape_id, service_id):
 
         self.trip_id = trip_id
         self.route_id = route_id
@@ -46,12 +41,41 @@ class Trip:
         self.service_id = service_id
 
     def __str__(self):
-        return f"Trip {self.trip_id}"
+
+        return self.trip_id
+
+
+class StopTime:
+
+    def __init__(
+        self,
+        trip_id,
+        arrival_time,
+        departure_time,
+        stop_id,
+        stop_sequence
+    ):
+
+        self.trip_id = trip_id
+        self.arrival_time = arrival_time
+        self.departure_time = departure_time
+        self.stop_id = stop_id
+        self.stop_sequence = stop_sequence
+
+    def __str__(self):
+
+        return (
+            f"{self.trip_id} | "
+            f"Parada {self.stop_sequence} | "
+            f"{self.arrival_time}"
+        )
 
     def to_dict(self):
+
         return {
             "trip_id": self.trip_id,
-            "route_id": self.route_id,
-            "service_id": self.service_id,
-            "shape_id": self.shape_id
+            "arrival_time": self.arrival_time,
+            "departure_time": self.departure_time,
+            "stop_id": self.stop_id,
+            "stop_sequence": self.stop_sequence
         }

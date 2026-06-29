@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+1,UrbanTransit MX,https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx,America/Mexico_City,es

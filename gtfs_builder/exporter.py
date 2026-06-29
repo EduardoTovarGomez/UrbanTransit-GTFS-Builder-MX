@@ -169,3 +169,168 @@ class GTFSExporter:
                 ])
 
         print("✅ trips.txt generado correctamente.")
+        
+    # ==========================================
+    # STOP_TIMES.TXT
+    # ==========================================
+
+    def export_stop_times(self, stop_times):
+
+        print("\n📄 Generando stop_times.txt...")
+
+        archivo = self.output_folder / "stop_times.txt"
+
+        with open(
+            archivo,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "trip_id",
+                "arrival_time",
+                "departure_time",
+                "stop_id",
+                "stop_sequence"
+            ])
+
+            for stop_time in stop_times:
+
+                writer.writerow([
+                    stop_time.trip_id,
+                    stop_time.arrival_time,
+                    stop_time.departure_time,
+                    stop_time.stop_id,
+                    stop_time.stop_sequence
+                ])
+
+        print(
+            f"✅ stop_times.txt generado correctamente "
+            f"({len(stop_times)} registros)."
+        )
+        
+    # ==========================================
+    # AGENCY.TXT
+    # ==========================================
+
+    def export_agency(self):
+
+        print("\n📄 Generando agency.txt...")
+
+        archivo = self.output_folder / "agency.txt"
+
+        with open(
+            archivo,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "agency_id",
+                "agency_name",
+                "agency_url",
+                "agency_timezone",
+                "agency_lang"
+            ])
+
+            writer.writerow([
+                1,
+                "UrbanTransit MX",
+                "https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx",
+                "America/Mexico_City",
+                "es"
+            ])
+
+        print("✅ agency.txt generado correctamente.")
+        
+    # ==========================================
+    # CALENDAR.TXT
+    # ==========================================
+
+    def export_calendar(self):
+
+        print("\n📄 Generando calendar.txt...")
+
+        archivo = self.output_folder / "calendar.txt"
+
+        with open(
+            archivo,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "service_id",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday",
+                "sunday",
+                "start_date",
+                "end_date"
+            ])
+
+            writer.writerow([
+                "WEEKDAY",
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                "20260101",
+                "20261231"
+            ])
+
+        print("✅ calendar.txt generado correctamente.")
+        
+    # ==========================================
+    # FEED_INFO.TXT
+    # ==========================================
+
+    def export_feed_info(self):
+
+        print("\n📄 Generando feed_info.txt...")
+
+        archivo = self.output_folder / "feed_info.txt"
+
+        with open(
+            archivo,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "feed_publisher_name",
+                "feed_publisher_url",
+                "feed_lang",
+                "feed_start_date",
+                "feed_end_date",
+                "feed_version"
+            ])
+
+            writer.writerow([
+                "UrbanTransit MX",
+                "https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx",
+                "es",
+                "20260101",
+                "20261231",
+                "v0.5.0"
+            ])
+
+        print("✅ feed_info.txt generado correctamente.")
