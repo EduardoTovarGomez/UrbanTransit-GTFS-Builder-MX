@@ -50,3 +50,11 @@ PROJECT_URL = (
     "https://github.com/EduardoTovarGomez/"
     "urbantransit-gtfs-builder-mx"
 )
+
+# ==========================
+# Contacto del proyecto
+# ==========================
+
+CONTACT_EMAIL = "contacto@urbantransit.mx"
+
+CONTACT_URL = "https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx"

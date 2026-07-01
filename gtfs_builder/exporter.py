@@ -12,6 +12,7 @@ Genera los archivos GTFS del proyecto.
 """
 
 import csv
+import zipfile
 from pathlib import Path
 
 from gtfs_builder import config
@@ -23,7 +24,10 @@ class GTFSExporter:
 
         self.output_folder = Path(config.OUTPUT_FOLDER)
         self.output_folder.mkdir(exist_ok=True)
-
+        
+        self.archive_folder = Path("archives")
+        self.archive_folder.mkdir(exist_ok=True)
+        
     # =====================================================
     # STOPS
     # =====================================================
@@ -278,7 +282,9 @@ class GTFSExporter:
                 "feed_lang",
                 "feed_start_date",
                 "feed_end_date",
-                "feed_version"
+                "feed_version",
+                "feed_contact_email",
+                "feed_contact_url"
             ])
 
             writer.writerow([
@@ -287,7 +293,22 @@ class GTFSExporter:
                 config.LANGUAGE,
                 config.START_DATE,
                 config.END_DATE,
-                config.FEED_VERSION
+                config.FEED_VERSION,
+                config.CONTACT_EMAIL,
+                config.CONTACT_URL
             ])
 
         print("✅ feed_info.txt generado.")
+        
+    def export_zip(self):
+
+        print("\n📦 Generando archivo ZIP...")
+
+        zip_name = self.archive_folder / f"GTFS_{config.FEED_VERSION}.zip"
+
+        with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zipf:
+
+            for file in self.output_folder.glob("*.txt"):
+                zipf.write(file, arcname=file.name)
+
+        print(f"✅ ZIP generado: {zip_name}")

@@ -65,4 +65,6 @@ exporter.export_agency()
 exporter.export_calendar()
 exporter.export_feed_info()
 
+exporter.export_zip()
+
 ui.finish(parser)

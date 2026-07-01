@@ -13,6 +13,8 @@ Funciones para mostrar mensajes en consola.
 
 import time
 
+from gtfs_builder import config
+
 
 class ConsoleUI:
 
@@ -22,7 +24,7 @@ class ConsoleUI:
 
     def banner(self):
 
-        rint()
+        print()
         print("=" * 68)
         print(f"🚍 {config.PROJECT_NAME}")
         print(config.PROJECT_EDITION)
