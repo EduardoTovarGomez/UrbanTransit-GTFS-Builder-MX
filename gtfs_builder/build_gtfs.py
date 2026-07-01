@@ -4,10 +4,12 @@ from gtfs_builder.trip_generator import TripGenerator
 from gtfs_builder.schedule_generator import ScheduleGenerator
 from gtfs_builder import config
 from gtfs_builder.validator import ProjectValidator
+from gtfs_builder.ui import ConsoleUI
 
-print("=" * 45)
-print("UrbanTransit GTFS Builder MX")
-print("=" * 45)
+
+ui = ConsoleUI()
+
+ui.banner()
 
 # ==========================================
 # Cargar y analizar KML
@@ -62,3 +64,5 @@ exporter.export_stop_times(stop_times)
 exporter.export_agency()
 exporter.export_calendar()
 exporter.export_feed_info()
+
+ui.finish(parser)

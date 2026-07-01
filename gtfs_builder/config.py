@@ -30,3 +30,23 @@ START_DATE = "20260101"
 END_DATE = "20261231"
 
 FEED_VERSION = "0.6.0-dev"
+
+# ==========================
+# Proyecto
+# ==========================
+
+PROJECT_NAME = "UrbanTransit GTFS Builder MX"
+
+PROJECT_EDITION = "Professional Core Edition"
+
+PROJECT_TAGLINE = (
+    "Convirtiendo información geográfica "
+    "en datos abiertos para el transporte."
+)
+
+AUTHOR = "Eduardo Tovar Gómez"
+
+PROJECT_URL = (
+    "https://github.com/EduardoTovarGomez/"
+    "urbantransit-gtfs-builder-mx"
+)
