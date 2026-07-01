@@ -2,6 +2,7 @@ from gtfs_builder.parser import KMLParser
 from gtfs_builder.exporter import GTFSExporter
 from gtfs_builder.trip_generator import TripGenerator
 from gtfs_builder.schedule_generator import ScheduleGenerator
+from gtfs_builder import config
 
 print("=" * 45)
 print("UrbanTransit GTFS Builder MX")
@@ -11,7 +12,7 @@ print("=" * 45)
 # Cargar y analizar KML
 # ==========================================
 
-parser = KMLParser("data/kml/RutaA Tuxtla.kml")
+parser = KMLParser(config.INPUT_KML)
 
 parser.load()
 parser.parse()
