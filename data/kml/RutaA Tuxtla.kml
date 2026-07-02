@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document id="1LPqOJ8iNL7USlrIVSZsiMFyOXtb96v1j">
-	<name>RutaA Tuxtla</name>
+<Document id="15n5yFSvCO6mn9RfkWpjSYqQOdENeVujn">
+	<name>Ruta A_Tuxtla</name>
 	<Schema name="__managed_schema" id="__managed_schema">
 		<SimpleField type="string" name="str:bm9tYnJl">
 			<displayName>nombre</displayName>
@@ -10,7 +10,7 @@
 			<displayName>descripción</displayName>
 		</SimpleField>
 	</Schema>
-	<gx:CascadingStyle kml:id="__managed_style_1C84FD7010403A819F18_normal">
+	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -31,40 +31,39 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_1C84FD7010403A819F18">
+	<StyleMap id="__managed_style_2C4D0C928F40599A5681">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1C84FD7010403A819F18_normal</styleUrl>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_1C84FD7010403A819F18_highlight</styleUrl>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="__managed_style_1A926623C5403A819F19">
+	<StyleMap id="__managed_style_0B3E5E95E640599A5680">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1A926623C5403A819F19_normal</styleUrl>
+			<styleUrl>#__managed_style_0B3E5E95E640599A5680_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_1A926623C5403A819F19_highlight</styleUrl>
+			<styleUrl>#__managed_style_0B3E5E95E640599A5680_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0F18E4B552403A819F19_normal">
+	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LabelStyle>
 			</LabelStyle>
 			<LineStyle>
-				<color>ffff6712</color>
-				<width>5</width>
+				<color>ff000000</color>
+				<width>1.2</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>4d000000</color>
@@ -73,17 +72,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0F18E4B552403A819F19">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_0F18E4B552403A819F19_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_0F18E4B552403A819F19_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0F18E4B552403A819F19_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_098E87AE3A40599A5681_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -106,7 +95,93 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_05F204236B403A819F18_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_098E87AE3A40599A5681_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff6712</color>
+				<width>5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_098E87AE3A40599A5681">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_098E87AE3A40599A5681_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_098E87AE3A40599A5681_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_1E046F444640599A5681">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E046F444640599A5681_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1E046F444640599A5681_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -129,7 +204,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1C84FD7010403A819F18_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -151,71 +226,36 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_05F204236B403A819F18_normal">
+	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
 				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LabelStyle>
 			</LabelStyle>
 			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
+				<color>ff2dc0fb</color>
+				<width>4</width>
 			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
 			<BalloonStyle>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A926623C5403A819F19_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.8</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_21C131FAC1403A819F18">
+	<StyleMap id="__managed_style_1C2ACA81DC40599A5680">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_21C131FAC1403A819F18_normal</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_21C131FAC1403A819F18_highlight</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="__managed_style_05F204236B403A819F18">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_05F204236B403A819F18_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_05F204236B403A819F18_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_21C131FAC1403A819F18_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -235,80 +275,40 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_21C131FAC1403A819F18_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A926623C5403A819F19_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<Folder id="64f76044_0">
+	<Folder id="f5ae7d3_0">
 		<name>Paradas</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_21C131FAC1403A819F18</styleUrl>
-		<Placemark id="64f76044_5C796402F2DA2BCE">
-			<name>Gersa</name>
-			<description><![CDATA[<div><b>nombre</b>: Gersa</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_05F204236B403A819F18</styleUrl>
+		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
+		<Placemark id="f5ae7d3_5C796402F2DA2BCE">
+			<name>Escuela Superior de Trabajo Social</name>
+			<description><![CDATA[<div><b>nombre</b>: Escuela Superior de Trabajo Social</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Gersa</SimpleData>
+					<SimpleData name="str:bm9tYnJl">Escuela Superior de Trabajo Social</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.06064999999998,16.7364954,0</coordinates>
+				<coordinates>-93.0597891,16.7361833,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5C796453BAB51FDC">
+		<Placemark id="f5ae7d3_5C796453BAB51FDC">
 			<name>SCT</name>
 			<description><![CDATA[<div><b>nombre</b>: SCT</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_05F204236B403A819F18</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">SCT</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.06704980000001,16.7406068,0</coordinates>
+				<coordinates>-93.0670485,16.7408097,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5C7964C4738871C0">
+		<Placemark id="f5ae7d3_5C7964C4738871C0">
 			<name>Parque Lago Marimba</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque Lago Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_05F204236B403A819F18</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque Lago Marimba</SimpleData>
@@ -318,10 +318,10 @@
 				<coordinates>-93.07195040000002,16.7434589,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5D13DFB10DB73FBF">
+		<Placemark id="f5ae7d3_5D13DFB10DB73FBF">
 			<name>La Misión</name>
 			<description><![CDATA[<div><b>nombre</b>: La Misión</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_05F204236B403A819F18</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">La Misión</SimpleData>
@@ -331,28 +331,184 @@
 				<coordinates>-93.06783970000001,16.7408805,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5D13E06C465D16FB">
+		<Placemark id="f5ae7d3_5D13E06C465D16FB">
 			<name>7a Región militar</name>
 			<description><![CDATA[<div><b>nombre</b>: 7a Región militar</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_05F204236B403A819F18</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">7a Región militar</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.09570449999998,16.749826,0</coordinates>
+				<coordinates>-93.0953209,16.7497451,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D3739C9ECBB54AF">
+			<name>Parque 5 de Mayo</name>
+			<description><![CDATA[<div><b>nombre</b>: Parque 5 de Mayo</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Parque 5 de Mayo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1064243,16.752245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373A439D80046F">
+			<name>Parque Central</name>
+			<description><![CDATA[<div><b>nombre</b>: Parque Central</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Parque Central</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.11523200000002,16.7535199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373AE9FD3AE745">
+			<name>Parque de la Marimba</name>
+			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1235294,16.754871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373BAAE6184727">
+			<name>Parque de la Marimba</name>
+			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1236286,16.7547246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373C31AE35499A">
+			<name>Parque de la Juventud</name>
+			<description><![CDATA[<div><b>nombre</b>: Parque de la Juventud</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Parque de la Juventud</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1277322,16.7547965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373C7F261B0274">
+			<name>Bonampak</name>
+			<description><![CDATA[<div><b>nombre</b>: Bonampak</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Bonampak</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.13068960000001,16.7545245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373D19077321F1">
+			<name>Cabeza Maya</name>
+			<description><![CDATA[<div><b>nombre</b>: Cabeza Maya</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Cabeza Maya</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.13107720000001,16.7541675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373DB8D7411DEE">
+			<name>Caña Hueca</name>
+			<description><![CDATA[<div><b>nombre</b>: Caña Hueca</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Caña Hueca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.14078069999999,16.7549509,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373EA7288B7DD9">
+			<name>Plaza Cristal</name>
+			<description><![CDATA[<div><b>nombre</b>: Plaza Cristal</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Plaza Cristal</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1477919,16.7554525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373F07C9830FF9">
+			<name>UNACH</name>
+			<description><![CDATA[<div><b>nombre</b>: UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">UNACH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1543724,16.7555662,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D373FEAA9E2FFA2">
+			<name>Librería UNACH</name>
+			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.15874820000001,16.7564747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="f5ae7d3_5D374074C9305349">
+			<name>Librería UNACH</name>
+			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.1589668,16.7561562,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder id="64f76044_1">
+	<Folder id="f5ae7d3_1">
 		<name>IDA</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_21C131FAC1403A819F18</styleUrl>
-		<Placemark id="64f76044_5D13DC3791953A67">
+		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
+		<Placemark id="f5ae7d3_5D13DC3791953A67">
 			<name>IDA</name>
 			<description><![CDATA[<div><b>nombre</b>: IDA</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_0F18E4B552403A819F19</styleUrl>
+			<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">IDA</SimpleData>
@@ -364,10 +520,10 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark id="64f76044_5D13DC37919D82AF">
-			<name>Gersa</name>
-			<description><![CDATA[<div><b>nombre</b>: Gersa<br></div><div><b>descripción</b>: <i>empty</i><br></div>]]></description>
-			<styleUrl>#__managed_style_1A926623C5403A819F19</styleUrl>
+		<Placemark id="f5ae7d3_5D13DC37919D82AF">
+			<name>Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</name>
+			<description><![CDATA[<div><b>nombre</b>: Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_0B3E5E95E640599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</SimpleData>
@@ -377,10 +533,10 @@
 				<coordinates>-93.0596189,16.7358919,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5D13DC3791AAD5E9">
-			<name>Carreta</name>
-			<description><![CDATA[<div><b>nombre</b>: Carreta<br></div><div><b>descripción</b>: <i>empty</i><br></div>]]></description>
-			<styleUrl>#__managed_style_1C84FD7010403A819F18</styleUrl>
+		<Placemark id="f5ae7d3_5D13DC3791AAD5E9">
+			<name>Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</name>
+			<description><![CDATA[<div><b>nombre</b>: Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</SimpleData>
@@ -391,14 +547,14 @@
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder id="64f76044_2">
+	<Folder id="f5ae7d3_2">
 		<name>VUELTA</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_21C131FAC1403A819F18</styleUrl>
-		<Placemark id="64f76044_5D13DEEE9A353B0A">
+		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
+		<Placemark id="f5ae7d3_5D13DEEE9A353B0A">
 			<name>VUELTA</name>
 			<description><![CDATA[<div><b>nombre</b>: VUELTA</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_0F18E4B552403A819F19</styleUrl>
+			<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">VUELTA</SimpleData>
@@ -410,10 +566,10 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark id="64f76044_5D13DEEE9A9D4445">
-			<name>Carreta</name>
-			<description><![CDATA[<div><b>nombre</b>: Carreta<br></div><div><b>descripción</b>: <i>empty</i><br></div>]]></description>
-			<styleUrl>#__managed_style_1A926623C5403A819F19</styleUrl>
+		<Placemark id="f5ae7d3_5D13DEEE9A9D4445">
+			<name>Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</name>
+			<description><![CDATA[<div><b>nombre</b>: Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_0B3E5E95E640599A5680</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</SimpleData>
@@ -423,10 +579,10 @@
 				<coordinates>-93.19479370000001,16.7688683,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="64f76044_5D13DEEE9AD418CA">
-			<name>Gersa</name>
-			<description><![CDATA[<div><b>nombre</b>: Gersa<br></div><div><b>descripción</b>: <i>empty</i><br></div>]]></description>
-			<styleUrl>#__managed_style_1C84FD7010403A819F18</styleUrl>
+		<Placemark id="f5ae7d3_5D13DEEE9AD418CA">
+			<name>Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</name>
+			<description><![CDATA[<div><b>nombre</b>: Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</SimpleData>

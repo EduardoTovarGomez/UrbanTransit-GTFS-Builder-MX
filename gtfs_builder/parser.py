@@ -67,7 +67,7 @@ class KMLParser:
 
                 stop = Stop(
                     stop_id=len(self.stops) + 1,
-                    name=nombre.text,
+                    name=nombre.text.strip(),
                     lat=float(lat),
                     lon=float(lon)
                 )
@@ -89,11 +89,21 @@ class KMLParser:
                 if coords is None:
                     continue
 
+                description = placemark.find(
+                    "{http://www.opengis.net/kml/2.2}description"
+                )
+
+                description_text = ""
+
+                if description is not None and description.text:
+                    description_text = description.text.strip()
+
                 puntos = coords.text.strip().split()
 
                 route = Route(
                     route_id=len(self.routes) + 1,
-                    name=nombre.text,
+                    name=nombre.text.strip(),
+                    description=description_text,
                     points=puntos
                 )
 

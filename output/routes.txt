@@ -1,3 +1,3 @@
 route_id,route_short_name,route_long_name,route_type
-1,IDA,IDA,3
-2,VUELTA,VUELTA,3
+1,IDA,<div><b>nombre</b>: IDA</div><div><b>descripción</b>: <i>empty</i></div>,3
+2,VUELTA,<div><b>nombre</b>: VUELTA</div><div><b>descripción</b>: <i>empty</i></div>,3

@@ -80,7 +80,7 @@ class GTFSExporter:
                 writer.writerow([
                     i,
                     route.name,
-                    route.name,
+                    route.description,
                     3
                 ])
 

@@ -20,15 +20,26 @@ class Stop:
 
 class Route:
 
-    def __init__(self, route_id, name, points):
+    def __init__(
+        self,
+        route_id,
+        name,
+        description,
+        points
+    ):
 
         self.route_id = route_id
         self.name = name
+        self.description = description
         self.points = points
 
     def __str__(self):
 
-        return f"{self.name} ({len(self.points)} puntos)"
+        return (
+            f"{self.name}"
+            f" ({self.description})"
+            f" - {len(self.points)} puntos"
+        )
 
 
 class Trip:
