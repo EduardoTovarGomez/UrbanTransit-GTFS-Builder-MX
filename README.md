@@ -25,10 +25,10 @@ The goal is to simplify the publication of public transport information on platf
 
 - [x] Read KML
 - [x] Extract stops
-- [ ] Generate routes.txt
-- [ ] Generate shapes.txt
-- [ ] Generate trips.txt
-- [ ] Generate stop_times.txt
+- [x] Generate routes.txt
+- [x] Generate shapes.txt
+- [x] Generate trips.txt
+- [x] Generate stop_times.txt
 - [ ] GTFS validation
 - [ ] Graphical interface
 
@@ -52,10 +52,10 @@ UrbanTransit-GTFS-Builder-MX/
 - ✅ stops.txt
 - ✅ routes.txt
 - ✅ shapes.txt
-- 🚧 trips.txt
-- 🚧 stop_times.txt
-- 🚧 calendar.txt
+- ✅ trips.txt
+- ✅ stop_times.txt
+- ✅ calendar.txt
 
 ## 🇲🇽 Designed in Mexico
 
-Built with ❤️ to improve public transportation and promote open mobility data.
+Built with effort to improve public transportation and promote open mobility data.
