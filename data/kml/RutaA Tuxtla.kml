@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="15n5yFSvCO6mn9RfkWpjSYqQOdENeVujn">
 	<name>Ruta A_Tuxtla</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
 	<Schema name="__managed_schema" id="__managed_schema">
 		<SimpleField type="string" name="str:bm9tYnJl">
 			<displayName>nombre</displayName>
@@ -10,35 +11,24 @@
 			<displayName>descripción</displayName>
 		</SimpleField>
 	</Schema>
-	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_2C4D0C928F40599A5681">
+	<StyleMap id="__managed_style_098E87AE3A40599A5681">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681_normal</styleUrl>
+			<styleUrl>#default2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681_highlight</styleUrl>
+			<styleUrl>#default0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_098E87AE3A40599A56810">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="__managed_style_0B3E5E95E640599A5680">
@@ -51,114 +41,6 @@
 			<styleUrl>#__managed_style_0B3E5E95E640599A5680_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_098E87AE3A40599A5681_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ffff6712</color>
-				<width>7.5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_098E87AE3A40599A5681_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ffff6712</color>
-				<width>5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_098E87AE3A40599A5681">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_098E87AE3A40599A5681_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_098E87AE3A40599A5681_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="__managed_style_1E046F444640599A5681">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_1E046F444640599A5681_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_1E046F444640599A5681_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
@@ -168,8 +50,6 @@
 					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
 				</Icon>
 			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
 			<LineStyle>
 				<color>ff000000</color>
 				<width>1.8</width>
@@ -177,72 +57,23 @@
 			<PolyStyle>
 				<color>4d000000</color>
 			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
-				<scale>1.2</scale>
 				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
 			<LineStyle>
 				<color>ff000000</color>
-				<width>1.8</width>
+				<width>1.2</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>4d000000</color>
 			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.8</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-			<BalloonStyle>
-			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_1C2ACA81DC40599A5680">
@@ -255,6 +86,53 @@
 			<styleUrl>#__managed_style_1C2ACA81DC40599A5680_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1E046F444640599A5681">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E046F444640599A5681_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1E046F444640599A5681_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
@@ -265,19 +143,244 @@
 				</Icon>
 				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
 				<width>6</width>
 			</LineStyle>
-			<BalloonStyle>
-			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_2C4D0C928F40599A5681">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C4D0C928F40599A5681_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="default">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="default1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="default2">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="default0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
 	<Folder id="f5ae7d3_0">
 		<name>Paradas</name>
-		<open>1</open>
 		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
 		<Placemark id="f5ae7d3_5C796402F2DA2BCE">
 			<name>Escuela Superior de Trabajo Social</name>
@@ -507,8 +610,8 @@
 		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
 		<Placemark id="f5ae7d3_5D13DC3791953A67">
 			<name>IDA</name>
-			<description><![CDATA[<div><b>nombre</b>: IDA</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
+			<description>Escuela Trabajo Social - Carreta</description>
+			<styleUrl>#__managed_style_098E87AE3A40599A56810</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">IDA</SimpleData>
@@ -553,7 +656,7 @@
 		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
 		<Placemark id="f5ae7d3_5D13DEEE9A353B0A">
 			<name>VUELTA</name>
-			<description><![CDATA[<div><b>nombre</b>: VUELTA</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+			<description>Carreta - Escuela Trabajo Social</description>
 			<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">

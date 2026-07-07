@@ -5,6 +5,7 @@ from gtfs_builder.schedule_generator import ScheduleGenerator
 from gtfs_builder import config
 from gtfs_builder.validator import ProjectValidator
 from gtfs_builder.ui import ConsoleUI
+from gtfs_builder.route_matcher import RouteMatcher
 
 
 ui = ConsoleUI()
@@ -23,6 +24,8 @@ parser.parse()
 validator = ProjectValidator(parser)
 validator.validate()
 
+matcher = RouteMatcher(parser.routes, parser.stops)
+matcher.match()
 
 print("\n" + "=" * 35)
 print("RESUMEN DEL PROYECTO")
