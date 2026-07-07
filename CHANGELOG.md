@@ -22,3 +22,20 @@ Fecha: Junio 2026
 
 - Organización interna del parser.
 - Refactorización del exportador.
+
+v0.7.0
+-------
+
+Added
+- RouteMatcher module
+- Shape parsing
+- Closest point algorithm
+- Route matching structure
+- Automatic GTFS ZIP generation
+- feed_info.txt support
+- Improved console interface
+
+Improved
+- Route parsing
+- Route descriptions
+- Project architecture
