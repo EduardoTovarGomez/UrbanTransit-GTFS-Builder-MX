@@ -31,6 +31,14 @@ END_DATE = "20261231"
 
 FEED_VERSION = "0.6.0-dev"
 
+# ==========================================
+# ROUTE MATCHING
+# ==========================================
+
+# Distancia máxima (en metros) para asociar
+# una parada a una ruta.
+MATCH_DISTANCE = 100
+
 # ==========================
 # Proyecto
 # ==========================
@@ -50,6 +58,7 @@ PROJECT_URL = (
     "https://github.com/EduardoTovarGomez/"
     "urbantransit-gtfs-builder-mx"
 )
+
 
 # ==========================
 # Contacto del proyecto

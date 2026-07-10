@@ -14,17 +14,17 @@
 	<StyleMap id="__managed_style_098E87AE3A40599A5681">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#default2</styleUrl>
+			<styleUrl>#default20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#default0</styleUrl>
+			<styleUrl>#default00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="__managed_style_098E87AE3A40599A56810">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#default</styleUrl>
+			<styleUrl>#default0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -84,6 +84,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_1C2ACA81DC40599A5680_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_1C2ACA81DC40599A56800">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_1C2ACA81DC40599A5680_highlight">
@@ -244,6 +254,48 @@
 		<ListStyle>
 		</ListStyle>
 		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="default0">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
 			<color>ffff6712</color>
 			<width>5</width>
 		</LineStyle>
@@ -251,7 +303,7 @@
 			<color>4d000000</color>
 		</PolyStyle>
 	</Style>
-	<Style id="default1">
+	<Style id="default2">
 		<IconStyle>
 			<scale>1.2</scale>
 			<heading>0</heading>
@@ -287,48 +339,8 @@
 		<ListStyle>
 		</ListStyle>
 		<LineStyle>
-			<color>ffff6712</color>
-			<width>7.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>4d000000</color>
-		</PolyStyle>
-	</Style>
-	<Style id="default2">
-		<IconStyle>
-			<heading>0</heading>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			<gx:headingMode>auto</gx:headingMode>
-		</IconStyle>
-		<BalloonStyle>
-			<text><![CDATA[<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Test</title>
-<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
-</head>
-<body>
-<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-<div unresolved class="hidden">
-<h1>$[name]</h1>
-<h2>$[snippet]</h2>
-<div>$[description]</div>
-</div>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
-</card-template>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
-</body>
-</html>]]></text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>5</width>
+			<color>ff000000</color>
+			<width>1.8</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>4d000000</color>
@@ -336,7 +348,7 @@
 		<gx:IconStackStyle>
 		</gx:IconStackStyle>
 	</Style>
-	<Style id="default0">
+	<Style id="default00">
 		<IconStyle>
 			<scale>1.2</scale>
 			<heading>0</heading>
@@ -379,137 +391,274 @@
 		<gx:IconStackStyle>
 		</gx:IconStackStyle>
 	</Style>
+	<Style id="default1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>7.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="default20">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<StyleMap id="msn_icon?color=0288d1&amp;id=1899&amp;scale=4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon?color=0288d1&amp;id=1899&amp;scale=4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="sn_icon?color=0288d1&amp;id=1899&amp;scale=4">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
 	<Folder id="f5ae7d3_0">
 		<name>Paradas</name>
+		<open>1</open>
 		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
 		<Placemark id="f5ae7d3_5C796402F2DA2BCE">
 			<name>Escuela Superior de Trabajo Social</name>
 			<description><![CDATA[<div><b>nombre</b>: Escuela Superior de Trabajo Social</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#__managed_style_1C2ACA81DC40599A56800</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Escuela Superior de Trabajo Social</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.0597891,16.7361833,0</coordinates>
+				<coordinates>-93.05985641723424,16.73608995258794,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5C796453BAB51FDC">
 			<name>SCT</name>
 			<description><![CDATA[<div><b>nombre</b>: SCT</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">SCT</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.0670485,16.7408097,0</coordinates>
+				<coordinates>-93.06695414584937,16.74061889841374,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5C7964C4738871C0">
 			<name>Parque Lago Marimba</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque Lago Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque Lago Marimba</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.07195040000002,16.7434589,0</coordinates>
+				<coordinates>-93.07110729473749,16.74310819235,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D13DFB10DB73FBF">
 			<name>La Misión</name>
 			<description><![CDATA[<div><b>nombre</b>: La Misión</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">La Misión</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.06783970000001,16.7408805,0</coordinates>
+				<coordinates>-93.06793323080718,16.74095574212445,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D13E06C465D16FB">
 			<name>7a Región militar</name>
 			<description><![CDATA[<div><b>nombre</b>: 7a Región militar</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">7a Región militar</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.0953209,16.7497451,0</coordinates>
+				<coordinates>-93.09529025138274,16.74973938905494,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D3739C9ECBB54AF">
 			<name>Parque 5 de Mayo</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque 5 de Mayo</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque 5 de Mayo</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1064243,16.752245,0</coordinates>
+				<coordinates>-93.10619202580801,16.75215931762592,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373A439D80046F">
 			<name>Parque Central</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque Central</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque Central</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.11523200000002,16.7535199,0</coordinates>
+				<coordinates>-93.1152347481725,16.75351092880834,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373AE9FD3AE745">
 			<name>Parque de la Marimba</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1235294,16.754871,0</coordinates>
+				<coordinates>-93.12355566662085,16.75485093408649,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373BAAE6184727">
 			<name>Parque de la Marimba</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1236286,16.7547246,0</coordinates>
+				<coordinates>-93.12356405209884,16.7547114794269,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373C31AE35499A">
 			<name>Parque de la Juventud</name>
 			<description><![CDATA[<div><b>nombre</b>: Parque de la Juventud</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Parque de la Juventud</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1277322,16.7547965,0</coordinates>
+				<coordinates>-93.12766712679189,16.75481450503322,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373C7F261B0274">
@@ -528,79 +677,79 @@
 		<Placemark id="f5ae7d3_5D373D19077321F1">
 			<name>Cabeza Maya</name>
 			<description><![CDATA[<div><b>nombre</b>: Cabeza Maya</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Cabeza Maya</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.13107720000001,16.7541675,0</coordinates>
+				<coordinates>-93.13110618405108,16.75417158461475,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373DB8D7411DEE">
 			<name>Caña Hueca</name>
 			<description><![CDATA[<div><b>nombre</b>: Caña Hueca</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Caña Hueca</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.14078069999999,16.7549509,0</coordinates>
+				<coordinates>-93.14062241231881,16.75490311840771,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373EA7288B7DD9">
 			<name>Plaza Cristal</name>
 			<description><![CDATA[<div><b>nombre</b>: Plaza Cristal</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Plaza Cristal</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1477919,16.7554525,0</coordinates>
+				<coordinates>-93.14768288074517,16.75539498877132,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373F07C9830FF9">
 			<name>UNACH</name>
 			<description><![CDATA[<div><b>nombre</b>: UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">UNACH</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1543724,16.7555662,0</coordinates>
+				<coordinates>-93.15419813467626,16.75557674371,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D373FEAA9E2FFA2">
 			<name>Librería UNACH</name>
 			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.15874820000001,16.7564747,0</coordinates>
+				<coordinates>-93.15888764239369,16.75645083829898,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="f5ae7d3_5D374074C9305349">
 			<name>Librería UNACH</name>
 			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#__managed_schema">
 					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
 				</SchemaData>
 			</ExtendedData>
 			<Point>
-				<coordinates>-93.1589668,16.7561562,0</coordinates>
+				<coordinates>-93.15875315963493,16.75615717882155,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>

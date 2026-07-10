@@ -32,6 +32,9 @@ class Route:
         self.name = name
         self.description = description
         self.points = points
+        
+        # Paradas asociadas a esta ruta
+        self.stops = []
 
     def __str__(self):
 

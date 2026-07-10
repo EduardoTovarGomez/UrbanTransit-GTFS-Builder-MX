@@ -1,5 +1,7 @@
 import math
 
+from gtfs_builder import config
+
 
 class RouteMatcher:
 
@@ -8,8 +10,6 @@ class RouteMatcher:
         self.routes = routes
         self.stops = stops
 
-        # Aquí guardaremos las asociaciones
-        self.matches = {}
 
     def parse_shape_points(self, route):
 
@@ -26,18 +26,37 @@ class RouteMatcher:
 
         return coordinates
 
+
+
     def calculate_distance(self, stop, point):
 
-        lon1 = stop.lon
-        lat1 = stop.lat
+        # Radio medio de la Tierra (metros)
+        R = 6371000
 
-        lon2 = point[0]
-        lat2 = point[1]
+        lat1 = math.radians(stop.lat)
+        lon1 = math.radians(stop.lon)
 
-        return math.sqrt(
-            (lon2 - lon1) ** 2 +
-            (lat2 - lat1) ** 2
+        lat2 = math.radians(point[1])
+        lon2 = math.radians(point[0])
+
+        dlat = lat2 - lat1
+        dlon = lon2 - lon1
+
+        a = (
+            math.sin(dlat / 2) ** 2
+            + math.cos(lat1)
+            * math.cos(lat2)
+            * math.sin(dlon / 2) ** 2
         )
+
+        c = 2 * math.atan2(
+            math.sqrt(a),
+            math.sqrt(1 - a)
+        )
+
+        return R * c
+
+
 
     def find_closest_shape_point(self, stop, shape):
 
@@ -65,7 +84,7 @@ class RouteMatcher:
 
             shape = self.parse_shape_points(route)
 
-            matched_stops = []
+            route.stops.clear()
 
             print(f"\n🛣️ {route.name}")
             print(f"   Shape: {len(shape)} puntos")
@@ -77,26 +96,34 @@ class RouteMatcher:
                     shape
                 )
 
-                matched_stops.append({
+
+                accepted = distance <= config.MATCH_DISTANCE
+                
+                route.stops.append({
                     "stop": stop,
                     "shape_index": closest_index,
-                    "distance": distance
+                    "distance": distance,
+                    "accepted": accepted
                 })
 
-            matched_stops.sort(
+
+
+            route.stops.sort(
                 key=lambda item: item["shape_index"]
             )
 
-            self.matches[route.route_id] = matched_stops
-
             print("\n   Orden detectado:\n")
 
-            for item in matched_stops:
+            for item in route.stops:
 
                 stop = item["stop"]
 
+                status = "✓" if item["accepted"] else "✗"
+                
                 print(
-                    f"   {item['shape_index']:>3}  "
+                    f"{status} "
+                    f"{item['shape_index']:>3} "
+                    f"{item['distance']:8.1f} m "
                     f"{stop.name}"
                 )
 

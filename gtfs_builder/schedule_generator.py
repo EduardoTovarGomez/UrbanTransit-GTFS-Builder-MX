@@ -3,7 +3,7 @@ from gtfs_builder.models import StopTime
 
 class ScheduleGenerator:
 
-    def generate(self, trips, stops):
+    def generate(self, trips, routes):
 
         print("\n⏰ Generando horarios...\n")
 
@@ -11,10 +11,18 @@ class ScheduleGenerator:
 
         for trip in trips:
 
+            # Buscar la ruta correspondiente al viaje
+            route = next(
+                r for r in routes
+                if r.route_id == trip.route_id
+            )
+
             hora = 8
             minuto = 0
 
-            for secuencia, stop in enumerate(stops, start=1):
+            for secuencia, item in enumerate(route.stops, start=1):
+
+                stop = item["stop"]
 
                 tiempo = f"{hora:02}:{minuto:02}:00"
 
@@ -30,7 +38,8 @@ class ScheduleGenerator:
 
                 print(
                     f"🚌 {trip.trip_id} -> "
-                    f"{stop.name} ({tiempo})"
+                    f"{stop.name} "
+                    f"({tiempo})"
                 )
 
                 minuto += 2

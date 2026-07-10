@@ -48,10 +48,12 @@ trips = trip_generator.generate(parser.routes)
 
 schedule_generator = ScheduleGenerator()
 
+
 stop_times = schedule_generator.generate(
     trips,
-    parser.stops
+    parser.routes
 )
+
 
 # ==========================================
 # Exportar archivos GTFS
