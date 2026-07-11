@@ -31,51 +31,6 @@
 			<styleUrl>#default1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="__managed_style_0B3E5E95E640599A5680">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_0B3E5E95E640599A5680_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_0B3E5E95E640599A5680_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.8</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0B3E5E95E640599A5680_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABiElEQVR4AayRO07DQBCGZ43pedUUyRFoEA2cAApEBx1SQs05qEkkOugQBZwAGkTDEZKCmgA9xst8Y68VO7ZFFKL9szuP/9tZOZJ//jUCV878/mrPX6/1/Ej1nWtEjlrTHDPAjVO/td73j1Eq907kWI0dVZyrQ44aPfRqvrRKQG5Ol+TFe9ktddUE9NCLZ7pcALlNb77TItPo9qcV48Ebugugj+VCk42wyUCr9SvOvVY1IGPzBMvU/LXArBsvDAIDulSOCBZRYGRAkZ0mGNOt97Mq5+w0+69f3xgG1PKmatFljABshbVNVjUG4Fu1QAyI5waFHHuNjGFAL/Jc0zBXKjAyYCS3VTfTkavu0znOQT5nGPDr0j04J0+hyB6eyV6NQ448wguDswE5uETOdU9U864k95qvAL5fudc0kkPNzgNN8OBVn60CSMTY0Y9s8wTiNtFDL57pvhKQArdNBm5Pbz7QL3ejubGKqdGYHDV66NVaac0AQ5WbP4fu5GPouqrlXF1y1EJfdf8FAAD//6vMks0AAAAGSURBVAMA/9qaKSFlJ4UAAAAASUVORK5CYII=</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_1C2ACA81DC40599A5680">
 		<Pair>
 			<key>normal</key>
@@ -133,92 +88,6 @@
 			</PolyStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_1E046F444640599A5681">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_1E046F444640599A5681_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_1E046F444640599A5681_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6</width>
-			</LineStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1E046F444640599A5681_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_2C4D0C928F40599A5681">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_highlight">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.8</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_2C4D0C928F40599A5681_normal">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABjUlEQVR4AayRsU7DMBRFn0PYgTIztJ/AgljgC2BAbLAhtcx8BzOtxAYbYoAvgAWx8AntwEyBnRDzjmtHTpogolL51vZ79x7bbSL//GkErpzavdW+vVrr27Hqy2tMjV7TPeaA6yd2szOwD0kud0bkSINdVerVpUYPD16tl0YJyMn5kjxbKzslV80GD14ycbsAcpqefKtNbqPTn0ZKhmxwF0CbyrkWC9h0KFIn9VRH6rOu7oBcmye4iv/qDPxCJ9ZIl+4Q5lhkYVBzQJPLIZtFFBgzoMj2IjCy+u87hgNqYUPVOMJviSE8nXVFjhGAlV55CwRRBc7cpAB8bTK0qDuGA1qRpxbBWmtgzICJ3FRd8dNYIzzh6axjWc9wwM8Lc2+MPMYGgnWKPWFNFgZ7B2RhMjnTOVO1HZnPulwBfLs0L3kiB1ptA83IkNWcGwWQHddOvmWLJ7D/TXjwkol9JSANTpsOza6evK//3LXWJipujSbU6OHBq73SmAOGLid/jMzx+8j0VMtePWr0gq86/wAAAP//cYTbsQAAAAZJREFUAwDhj54pn7gudgAAAABJRU5ErkJggg==</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-			</PolyStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<Style id="default">
 		<IconStyle>
 			<heading>0</heading>
@@ -251,8 +120,6 @@
 </body>
 </html>]]></text>
 		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff000000</color>
 			<width>1.2</width>
@@ -260,8 +127,6 @@
 		<PolyStyle>
 			<color>4d000000</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="default0">
 		<IconStyle>
@@ -302,51 +167,6 @@
 		<PolyStyle>
 			<color>4d000000</color>
 		</PolyStyle>
-	</Style>
-	<Style id="default2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<heading>0</heading>
-			<Icon>
-				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			<gx:headingMode>auto</gx:headingMode>
-		</IconStyle>
-		<BalloonStyle>
-			<text><![CDATA[<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Test</title>
-<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
-</head>
-<body>
-<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-<div unresolved class="hidden">
-<h1>$[name]</h1>
-<h2>$[snippet]</h2>
-<div>$[description]</div>
-</div>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
-</card-template>
-<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
-</body>
-</html>]]></text>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>1.8</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>4d000000</color>
-		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="default00">
 		<IconStyle>
@@ -432,6 +252,47 @@
 			<color>4d000000</color>
 		</PolyStyle>
 	</Style>
+	<Style id="default2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<heading>0</heading>
+			<Icon>
+				<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%}card-template{width:356px;min-height:165px}card-template.mobile{width:100vw}div[unresolved].hidden{display:none}div[unresolved]{padding:20px}div[unresolved] h1{font-family:"Google Sans","Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:18px;font-weight:normal;letter-spacing:0;line-height:24px;margin:0;margin-bottom:4px}div[unresolved] h2{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:600;line-height:20px;letter-spacing:.25px;color:#5f6368;margin-bottom:20px}div[unresolved] div{font-family:"Roboto","Noto",sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;font-weight:normal;line-height:20px;letter-spacing:.2px}</style>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/polyfills/webcomponents-loader.js"></script>
+</head>
+<body>
+<card-template title="$[name|escapeHtml]" snippet="$[snippet|escapeHtml]" description="$[description|escapeHtml]" carousel="$[carousel|escapeHtml]">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<div unresolved class="hidden">
+<h1>$[name]</h1>
+<h2>$[snippet]</h2>
+<div>$[description]</div>
+</div>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/failsafe_bin.js"></script>
+</card-template>
+<script src="https://earth.google.com/balloon_components/base/1.1.0.0/card_template.js"></script>
+</body>
+</html>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
 	<Style id="default20">
 		<IconStyle>
 			<heading>0</heading>
@@ -471,8 +332,6 @@
 		<PolyStyle>
 			<color>4d000000</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<StyleMap id="msn_icon?color=0288d1&amp;id=1899&amp;scale=4">
 		<Pair>
@@ -492,10 +351,6 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff000000</color>
 			<width>1.8</width>
@@ -503,8 +358,6 @@
 		<PolyStyle>
 			<color>4d000000</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
 	<Style id="sn_icon?color=0288d1&amp;id=1899&amp;scale=4">
 		<IconStyle>
@@ -513,10 +366,6 @@
 			</Icon>
 			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff000000</color>
 			<width>1.2</width>
@@ -524,326 +373,257 @@
 		<PolyStyle>
 			<color>4d000000</color>
 		</PolyStyle>
-		<gx:IconStackStyle>
-		</gx:IconStackStyle>
 	</Style>
-	<Folder id="f5ae7d3_0">
-		<name>Paradas</name>
-		<open>1</open>
-		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
-		<Placemark id="f5ae7d3_5C796402F2DA2BCE">
-			<name>Escuela Superior de Trabajo Social</name>
-			<description><![CDATA[<div><b>nombre</b>: Escuela Superior de Trabajo Social</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A56800</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Escuela Superior de Trabajo Social</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.05985641723424,16.73608995258794,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5C796453BAB51FDC">
-			<name>SCT</name>
-			<description><![CDATA[<div><b>nombre</b>: SCT</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">SCT</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.06695414584937,16.74061889841374,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5C7964C4738871C0">
-			<name>Parque Lago Marimba</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque Lago Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque Lago Marimba</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.07110729473749,16.74310819235,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13DFB10DB73FBF">
-			<name>La Misión</name>
-			<description><![CDATA[<div><b>nombre</b>: La Misión</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">La Misión</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.06793323080718,16.74095574212445,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13E06C465D16FB">
-			<name>7a Región militar</name>
-			<description><![CDATA[<div><b>nombre</b>: 7a Región militar</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">7a Región militar</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.09529025138274,16.74973938905494,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D3739C9ECBB54AF">
-			<name>Parque 5 de Mayo</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque 5 de Mayo</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque 5 de Mayo</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.10619202580801,16.75215931762592,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373A439D80046F">
-			<name>Parque Central</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque Central</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque Central</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.1152347481725,16.75351092880834,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373AE9FD3AE745">
-			<name>Parque de la Marimba</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.12355566662085,16.75485093408649,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373BAAE6184727">
-			<name>Parque de la Marimba</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.12356405209884,16.7547114794269,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373C31AE35499A">
-			<name>Parque de la Juventud</name>
-			<description><![CDATA[<div><b>nombre</b>: Parque de la Juventud</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Parque de la Juventud</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.12766712679189,16.75481450503322,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373C7F261B0274">
-			<name>Bonampak</name>
-			<description><![CDATA[<div><b>nombre</b>: Bonampak</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Bonampak</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.13068960000001,16.7545245,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373D19077321F1">
-			<name>Cabeza Maya</name>
-			<description><![CDATA[<div><b>nombre</b>: Cabeza Maya</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Cabeza Maya</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.13110618405108,16.75417158461475,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373DB8D7411DEE">
-			<name>Caña Hueca</name>
-			<description><![CDATA[<div><b>nombre</b>: Caña Hueca</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Caña Hueca</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.14062241231881,16.75490311840771,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373EA7288B7DD9">
-			<name>Plaza Cristal</name>
-			<description><![CDATA[<div><b>nombre</b>: Plaza Cristal</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Plaza Cristal</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.14768288074517,16.75539498877132,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373F07C9830FF9">
-			<name>UNACH</name>
-			<description><![CDATA[<div><b>nombre</b>: UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">UNACH</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.15419813467626,16.75557674371,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D373FEAA9E2FFA2">
-			<name>Librería UNACH</name>
-			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.15888764239369,16.75645083829898,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D374074C9305349">
-			<name>Librería UNACH</name>
-			<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.15875315963493,16.75615717882155,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder id="f5ae7d3_1">
+	<Placemark id="f5ae7d3_5C796402F2DA2BCE">
+		<name>Escuela Superior de Trabajo Social</name>
+		<description><![CDATA[<div><b>nombre</b>: Escuela Superior de Trabajo Social</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#__managed_style_1C2ACA81DC40599A56800</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Escuela Superior de Trabajo Social</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.05985641723424,16.73608995258794,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5C796453BAB51FDC">
+		<name>SCT</name>
+		<description><![CDATA[<div><b>nombre</b>: SCT</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">SCT</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.06695414584937,16.74061889841374,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5C7964C4738871C0">
+		<name>Parque Lago Marimba</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque Lago Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque Lago Marimba</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.07110729473749,16.74310819235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D13DFB10DB73FBF">
+		<name>La Misión</name>
+		<description><![CDATA[<div><b>nombre</b>: La Misión</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">La Misión</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.06793323080718,16.74095574212445,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D13E06C465D16FB">
+		<name>7a Región militar</name>
+		<description><![CDATA[<div><b>nombre</b>: 7a Región militar</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">7a Región militar</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.09529025138274,16.74973938905494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D3739C9ECBB54AF">
+		<name>Parque 5 de Mayo</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque 5 de Mayo</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque 5 de Mayo</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.10619202580801,16.75215931762592,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373A439D80046F">
+		<name>Parque Central</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque Central</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque Central</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.1152347481725,16.75351092880834,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373AE9FD3AE745">
+		<name>Parque de la Marimba</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.12355566662085,16.75485093408649,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373BAAE6184727">
+		<name>Parque de la Marimba</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque de la Marimba</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque de la Marimba</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.12356405209884,16.7547114794269,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373C31AE35499A">
+		<name>Parque de la Juventud</name>
+		<description><![CDATA[<div><b>nombre</b>: Parque de la Juventud</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Parque de la Juventud</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.12766712679189,16.75481450503322,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373C7F261B0274">
+		<name>Bonampak</name>
+		<description><![CDATA[<div><b>nombre</b>: Bonampak</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#__managed_style_1C2ACA81DC40599A5680</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Bonampak</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.13068960000001,16.7545245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373D19077321F1">
+		<name>Cabeza Maya</name>
+		<description><![CDATA[<div><b>nombre</b>: Cabeza Maya</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Cabeza Maya</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.13110618405108,16.75417158461475,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373DB8D7411DEE">
+		<name>Caña Hueca</name>
+		<description><![CDATA[<div><b>nombre</b>: Caña Hueca</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Caña Hueca</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.14062241231881,16.75490311840771,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373EA7288B7DD9">
+		<name>Plaza Cristal</name>
+		<description><![CDATA[<div><b>nombre</b>: Plaza Cristal</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Plaza Cristal</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.14768288074517,16.75539498877132,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373F07C9830FF9">
+		<name>UNACH</name>
+		<description><![CDATA[<div><b>nombre</b>: UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">UNACH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.15419813467626,16.75557674371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D373FEAA9E2FFA2">
+		<name>Librería UNACH</name>
+		<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.15888764239369,16.75645083829898,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D374074C9305349">
+		<name>Librería UNACH</name>
+		<description><![CDATA[<div><b>nombre</b>: Librería UNACH</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
+		<styleUrl>#msn_icon?color=0288d1&amp;id=1899&amp;scale=4</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">Librería UNACH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>-93.15875315963493,16.75615717882155,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D13DC3791953A67">
 		<name>IDA</name>
-		<open>1</open>
-		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
-		<Placemark id="f5ae7d3_5D13DC3791953A67">
-			<name>IDA</name>
-			<description>Escuela Trabajo Social - Carreta</description>
-			<styleUrl>#__managed_style_098E87AE3A40599A56810</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">IDA</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<LineString>
-				<coordinates>
-					-93.05962,16.73589,0 -93.05995,16.73607,0 -93.06034,16.73626,0 -93.06055000000001,16.73637,0 -93.06133,16.73677,0 -93.06186,16.73704,0 -93.06225999999998,16.73729,0 -93.06236000000001,16.73736,0 -93.06307,16.73785,0 -93.06332999999999,16.73803,0 -93.06366,16.73825,0 -93.06368999999999,16.73827,0 -93.06391000000002,16.73842,0 -93.06449000000001,16.73882,0 -93.06471999999999,16.73899,0 -93.06529,16.7394,0 -93.0656,16.73962,0 -93.06604,16.73992,0 -93.06647,16.74019,0 -93.06713999999999,16.74067,0 -93.06721,16.74071,0 -93.06721,16.74072,0 -93.06722000000001,16.74074,0 -93.06723,16.74075,0 -93.06726,16.74079,0 -93.06743,16.74091,0 -93.06769,16.74111,0 -93.06803999999998,16.74136,0 -93.0684,16.74159,0 -93.06865000000001,16.74176,0 -93.06887,16.74188,0 -93.06896,16.74193,0 -93.06912,16.74202,0 -93.06923999999999,16.74208,0 -93.07002,16.74251,0 -93.07035999999999,16.74267,0 -93.07052999999999,16.74275,0 -93.07069,16.74283,0 -93.07173,16.74334,0 -93.07194,16.74345,0 -93.07210000000001,16.74354,0 -93.07215000000001,16.74356,0 -93.07227,16.74363,0 -93.0723,16.74364,0 -93.07236000000002,16.74367,0 -93.0724,16.74369,0 -93.07340000000001,16.74422,0 -93.07478999999999,16.74492,0 -93.07499,16.74503,0 -93.07512,16.74511,0 -93.07518,16.74514,0 -93.07559999999998,16.74539,0 -93.0758,16.7455,0 -93.07642000000001,16.74587,0 -93.07662000000001,16.74598,0 -93.07695,16.74613,0 -93.07717,16.74621,0 -93.07764000000002,16.74637,0 -93.078,16.74647,0 -93.07811,16.7465,0 -93.07841000000001,16.74657,0 -93.07971999999999,16.74681,0 -93.07987000000001,16.74684,0 -93.08017,16.74689,0 -93.08025000000002,16.7469,0 -93.08056999999999,16.74696,0 -93.08078,16.74701,0 -93.08154999999998,16.74716,0 -93.08166,16.74718,0 -93.08230999999999,16.74727,0 -93.08239,16.74729,0 -93.08256,16.74733,0 -93.08275000000002,16.74738,0 -93.08291,16.74742,0 -93.08307000000001,16.74744,0 -93.08308,16.74745,0 -93.08308,16.74746,0 -93.08309000000001,16.74747,0 -93.08309999999999,16.74748,0 -93.08311,16.74749,0 -93.08313,16.7475,0 -93.08314,16.74751,0 -93.08314999999999,16.74752,0 -93.08316000000001,16.74753,0 -93.08318,16.74753,0 -93.08319,16.74754,0 -93.08321000000001,16.74754,0 -93.08322,16.74754,0 -93.08324,16.74754,0 -93.08325000000002,16.74754,0 -93.08326999999998,16.74754,0 -93.08328,16.74754,0 -93.08329000000001,16.74754,0 -93.08329999999999,16.74753,0 -93.08331,16.74753,0 -93.08331999999999,16.74753,0 -93.08333,16.74752,0 -93.08334000000001,16.74751,0 -93.08336,16.7475,0 -93.08337000000002,16.7475,0 -93.08338000000001,16.74749,0 -93.08338999999999,16.74748,0 -93.08372,16.74754,0 -93.08461,16.74769,0 -93.08522000000001,16.7478,0 -93.08576999999998,16.74791,0 -93.08621000000001,16.74799,0 -93.08642000000002,16.74803,0 -93.08676000000001,16.7481,0 -93.08723999999999,16.74819,0 -93.08828,16.74841,0 -93.08942999999999,16.74865,0 -93.08956000000001,16.74867,0 -93.09014999999999,16.7488,0 -93.09099000000001,16.749,0 -93.09123,16.74906,0 -93.09208,16.74925,0 -93.09348999999999,16.74955,0 -93.09348999999999,16.74956,0 -93.09365999999999,16.74959,0 -93.09453000000002,16.74978,0 -93.09603,16.75012,0 -93.09702,16.75034,0 -93.09761,16.75047,0 -93.09806,16.75058,0 -93.09876,16.75074,0 -93.09941999999999,16.75089,0 -93.09945,16.7509,0 -93.09948999999999,16.75091,0 -93.09952,16.75092,0 -93.09955000000001,16.75092,0 -93.09967,16.75096,0 -93.09982999999998,16.75099,0 -93.10023,16.75108,0 -93.10032999999999,16.7511,0 -93.10131,16.75134,0 -93.10147000000001,16.75137,0 -93.10188999999998,16.75145,0 -93.10276999999999,16.7516,0 -93.10295000000001,16.75163,0 -93.10298999999999,16.75163,0 -93.10303999999999,16.75164,0 -93.1039,16.75178,0 -93.10406,16.7518,0 -93.10416000000001,16.75181,0 -93.1049,16.75192,0 -93.1052,16.75196,0 -93.10523000000001,16.75197,0 -93.10527999999998,16.75197,0 -93.10638000000002,16.75213,0 -93.10643999999999,16.75214,0 -93.10686,16.7522,0 -93.10694999999998,16.75221,0 -93.10709,16.7522,0 -93.10771,16.75229,0 -93.10855000000001,16.75243,0 -93.10938000000002,16.75257,0 -93.11023,16.75271,0 -93.11063,16.75278,0 -93.11116999999999,16.75286,0 -93.11200000000001,16.753,0 -93.11287,16.75311,0 -93.11371999999999,16.75323,0 -93.11458,16.75335,0 -93.1153,16.75346,0 -93.11623,16.7536,0 -93.11706000000001,16.75374,0 -93.11724,16.75377,0 -93.11790999999999,16.75389,0 -93.11879,16.75401,0 -93.11922000000001,16.75409,0 -93.11959,16.75415,0 -93.11989000000001,16.75419,0 -93.12042,16.75428,0 -93.12076999999999,16.75436,0 -93.12125,16.75444,0 -93.12167000000001,16.75451,0 -93.12213,16.75458,0 -93.12244999999999,16.75463,0 -93.12304,16.75472,0 -93.12309999999999,16.75473,0 -93.12318999999999,16.75474,0 -93.12322000000002,16.75475,0 -93.12342,16.75478,0 -93.12391,16.75485,0 -93.12481,16.75499,0 -93.12534000000001,16.75501,0 -93.12568,16.755,0 -93.12573,16.755,0 -93.12576,16.755,0 -93.12649,16.75491,0 -93.12737,16.75487,0 -93.12767999999998,16.7549,0 -93.12775000000001,16.75491,0 -93.12782,16.75491,0 -93.12788999999999,16.7549,0 -93.12799,16.75489,0 -93.12813,16.75487,0 -93.12833000000002,16.75483,0 -93.12855000000002,16.75481,0 -93.12873999999998,16.75477,0 -93.12903,16.75471,0 -93.12933,16.7547,0 -93.12947,16.75467,0 -93.12957,16.75465,0 -93.12987,16.75459,0 -93.1302,16.75454,0 -93.13079,16.75444,0 -93.13097999999999,16.7544,0 -93.13115000000001,16.75436,0 -93.13127999999999,16.75434,0 -93.13136,16.75432,0 -93.13151000000001,16.7543,0 -93.13163,16.75428,0 -93.13178999999998,16.75426,0 -93.13189000000001,16.75425,0 -93.13197,16.75425,0 -93.13206000000001,16.75424,0 -93.13211999999999,16.75425,0 -93.13221,16.75425,0 -93.13236000000001,16.75426,0 -93.13269,16.75428,0 -93.13325,16.75433,0 -93.13326000000001,16.75434,0 -93.13328999999999,16.75434,0 -93.13391,16.75439,0 -93.13422999999999,16.75441,0 -93.13459,16.75443,0 -93.13472000000002,16.75444,0 -93.13494,16.75445,0 -93.13544,16.75449,0 -93.13564,16.7545,0 -93.13585999999999,16.75451,0 -93.13630999999999,16.75454,0 -93.13641,16.75454,0 -93.13678000000002,16.75457,0 -93.13721,16.75461,0 -93.13791999999999,16.75466,0 -93.13838,16.75469,0 -93.13843,16.7547,0 -93.13873000000001,16.75471,0 -93.13907,16.75473,0 -93.13967,16.75477,0 -93.14101000000001,16.75487,0 -93.14106,16.75487,0 -93.14111,16.75488,0 -93.14113999999999,16.75488,0 -93.14184000000002,16.75492,0 -93.14208000000001,16.75495,0 -93.14225999999999,16.75496,0 -93.14228999999999,16.75496,0 -93.14235000000001,16.75497,0 -93.14252,16.75498,0 -93.14262999999998,16.75498,0 -93.14272,16.75499,0 -93.14341,16.75504,0 -93.14379000000001,16.75506,0 -93.14434000000001,16.7551,0 -93.14511,16.75516,0 -93.14530000000001,16.75517,0 -93.14566000000001,16.75519,0 -93.14569,16.75519,0 -93.14582,16.7552,0 -93.14617,16.75522,0 -93.14648,16.75525,0 -93.14662000000001,16.75526,0 -93.14679999999998,16.75527,0 -93.14713999999998,16.7553,0 -93.1478,16.75534,0 -93.14794999999999,16.75534,0 -93.14825999999999,16.75536,0 -93.14839000000002,16.75538,0 -93.14949,16.75543,0 -93.14978000000002,16.75546,0 -93.15065,16.75552,0 -93.15076000000001,16.75554,0 -93.15081000000001,16.75554,0 -93.15118999999999,16.75557,0 -93.15145,16.75559,0 -93.15179999999998,16.75562,0 -93.15190000000001,16.75562,0 -93.15289,16.75569,0 -93.15351,16.75572,0 -93.15380999999999,16.75574,0 -93.15434000000002,16.75578,0 -93.15466000000001,16.7558,0 -93.15488000000001,16.75581,0 -93.1551,16.75582,0 -93.15529999999998,16.75584,0 -93.15543,16.75584,0 -93.15598,16.75588,0 -93.15639,16.7559,0 -93.15651,16.75591,0 -93.15676999999999,16.75596,0 -93.15693,16.75599,0 -93.15728,16.75606,0 -93.15752000000001,16.7561,0 -93.15924000000001,16.75649,0 -93.15961,16.75658,0 -93.15971999999999,16.7566,0 -93.15998,16.75666,0 -93.16005,16.75668,0 -93.16051000000002,16.75678,0 -93.16070000000001,16.75683,0 -93.16092,16.75688,0 -93.16101000000002,16.7569,0 -93.16160000000001,16.75704,0 -93.16174999999998,16.75707,0 -93.16191999999998,16.75711,0 -93.16208,16.75715,0 -93.16512999999999,16.75783,0 -93.16561,16.75793,0 -93.16571,16.75796,0 -93.16676,16.75819,0 -93.16735999999999,16.75831,0 -93.16755999999999,16.75835,0 -93.16811,16.75847,0 -93.16856,16.75857,0 -93.16880999999998,16.75863,0 -93.16939000000001,16.75877,0 -93.17111,16.75914,0 -93.17176000000001,16.7593,0 -93.1721,16.75938,0 -93.17211,16.75938,0 -93.17283999999999,16.75954,0 -93.17313999999999,16.7596,0 -93.17325000000001,16.75963,0 -93.17384,16.75977,0 -93.17542,16.76011,0 -93.17554,16.76014,0 -93.17645,16.76035,0 -93.17663000000002,16.76039,0 -93.17700000000001,16.76047,0 -93.17724,16.76052,0 -93.17798999999999,16.76069,0 -93.17887,16.7609,0 -93.17896000000002,16.76092,0 -93.17986999999998,16.76112,0 -93.18094000000001,16.76134,0 -93.18199,16.76157,0 -93.18292000000001,16.76179,0 -93.18366,16.76195,0 -93.18391999999999,16.76201,0 -93.18427,16.76211,0 -93.18462,16.76221,0 -93.18495,16.76233,0 -93.18518,16.76243,0 -93.18550999999999,16.76259,0 -93.18585,16.76279,0 -93.18609000000001,16.76294,0 -93.18674,16.76338,0 -93.187,16.76355,0 -93.18722,16.7637,0 -93.18731000000001,16.76377,0 -93.18752000000002,16.76393,0 -93.1878,16.76412,0 -93.18839,16.76457,0 -93.1888,16.76485,0 -93.18977,16.76554,0 -93.19086000000001,16.76633,0 -93.19179,16.76699,0 -93.19212,16.76722,0 -93.19228,16.76732,0 -93.19228,16.76733,0 -93.19353,16.76819,0 -93.1938,16.76837,0 -93.19382,16.76839,0 -93.19391,16.76844,0 -93.19395,16.76848,0 -93.19396999999999,16.7685,0 -93.19410000000001,16.76859,0 -93.19468000000001,16.76902,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13DC37919D82AF">
-			<name>Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</name>
-			<description><![CDATA[<div><b>nombre</b>: Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_0B3E5E95E640599A5680</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.0596189,16.7358919,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13DC3791AAD5E9">
-			<name>Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</name>
-			<description><![CDATA[<div><b>nombre</b>: Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.19468340000002,16.7690248,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder id="f5ae7d3_2">
+		<description>Escuela Trabajo Social - Carreta</description>
+		<styleUrl>#__managed_style_098E87AE3A40599A56810</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">IDA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				-93.05962,16.73589,0 -93.05995,16.73607,0 -93.06034,16.73626,0 -93.06055000000001,16.73637,0 -93.06133,16.73677,0 -93.06186,16.73704,0 -93.06225999999998,16.73729,0 -93.06236000000001,16.73736,0 -93.06307,16.73785,0 -93.06332999999999,16.73803,0 -93.06366,16.73825,0 -93.06368999999999,16.73827,0 -93.06391000000002,16.73842,0 -93.06449000000001,16.73882,0 -93.06471999999999,16.73899,0 -93.06529,16.7394,0 -93.0656,16.73962,0 -93.06604,16.73992,0 -93.06647,16.74019,0 -93.06713999999999,16.74067,0 -93.06721,16.74071,0 -93.06721,16.74072,0 -93.06722000000001,16.74074,0 -93.06723,16.74075,0 -93.06726,16.74079,0 -93.06743,16.74091,0 -93.06769,16.74111,0 -93.06803999999998,16.74136,0 -93.0684,16.74159,0 -93.06865000000001,16.74176,0 -93.06887,16.74188,0 -93.06896,16.74193,0 -93.06912,16.74202,0 -93.06923999999999,16.74208,0 -93.07002,16.74251,0 -93.07035999999999,16.74267,0 -93.07052999999999,16.74275,0 -93.07069,16.74283,0 -93.07173,16.74334,0 -93.07194,16.74345,0 -93.07210000000001,16.74354,0 -93.07215000000001,16.74356,0 -93.07227,16.74363,0 -93.0723,16.74364,0 -93.07236000000002,16.74367,0 -93.0724,16.74369,0 -93.07340000000001,16.74422,0 -93.07478999999999,16.74492,0 -93.07499,16.74503,0 -93.07512,16.74511,0 -93.07518,16.74514,0 -93.07559999999998,16.74539,0 -93.0758,16.7455,0 -93.07642000000001,16.74587,0 -93.07662000000001,16.74598,0 -93.07695,16.74613,0 -93.07717,16.74621,0 -93.07764000000002,16.74637,0 -93.078,16.74647,0 -93.07811,16.7465,0 -93.07841000000001,16.74657,0 -93.07971999999999,16.74681,0 -93.07987000000001,16.74684,0 -93.08017,16.74689,0 -93.08025000000002,16.7469,0 -93.08056999999999,16.74696,0 -93.08078,16.74701,0 -93.08154999999998,16.74716,0 -93.08166,16.74718,0 -93.08230999999999,16.74727,0 -93.08239,16.74729,0 -93.08256,16.74733,0 -93.08275000000002,16.74738,0 -93.08291,16.74742,0 -93.08307000000001,16.74744,0 -93.08308,16.74745,0 -93.08308,16.74746,0 -93.08309000000001,16.74747,0 -93.08309999999999,16.74748,0 -93.08311,16.74749,0 -93.08313,16.7475,0 -93.08314,16.74751,0 -93.08314999999999,16.74752,0 -93.08316000000001,16.74753,0 -93.08318,16.74753,0 -93.08319,16.74754,0 -93.08321000000001,16.74754,0 -93.08322,16.74754,0 -93.08324,16.74754,0 -93.08325000000002,16.74754,0 -93.08326999999998,16.74754,0 -93.08328,16.74754,0 -93.08329000000001,16.74754,0 -93.08329999999999,16.74753,0 -93.08331,16.74753,0 -93.08331999999999,16.74753,0 -93.08333,16.74752,0 -93.08334000000001,16.74751,0 -93.08336,16.7475,0 -93.08337000000002,16.7475,0 -93.08338000000001,16.74749,0 -93.08338999999999,16.74748,0 -93.08372,16.74754,0 -93.08461,16.74769,0 -93.08522000000001,16.7478,0 -93.08576999999998,16.74791,0 -93.08621000000001,16.74799,0 -93.08642000000002,16.74803,0 -93.08676000000001,16.7481,0 -93.08723999999999,16.74819,0 -93.08828,16.74841,0 -93.08942999999999,16.74865,0 -93.08956000000001,16.74867,0 -93.09014999999999,16.7488,0 -93.09099000000001,16.749,0 -93.09123,16.74906,0 -93.09208,16.74925,0 -93.09348999999999,16.74955,0 -93.09348999999999,16.74956,0 -93.09365999999999,16.74959,0 -93.09453000000002,16.74978,0 -93.09603,16.75012,0 -93.09702,16.75034,0 -93.09761,16.75047,0 -93.09806,16.75058,0 -93.09876,16.75074,0 -93.09941999999999,16.75089,0 -93.09945,16.7509,0 -93.09948999999999,16.75091,0 -93.09952,16.75092,0 -93.09955000000001,16.75092,0 -93.09967,16.75096,0 -93.09982999999998,16.75099,0 -93.10023,16.75108,0 -93.10032999999999,16.7511,0 -93.10131,16.75134,0 -93.10147000000001,16.75137,0 -93.10188999999998,16.75145,0 -93.10276999999999,16.7516,0 -93.10295000000001,16.75163,0 -93.10298999999999,16.75163,0 -93.10303999999999,16.75164,0 -93.1039,16.75178,0 -93.10406,16.7518,0 -93.10416000000001,16.75181,0 -93.1049,16.75192,0 -93.1052,16.75196,0 -93.10523000000001,16.75197,0 -93.10527999999998,16.75197,0 -93.10638000000002,16.75213,0 -93.10643999999999,16.75214,0 -93.10686,16.7522,0 -93.10694999999998,16.75221,0 -93.10709,16.7522,0 -93.10771,16.75229,0 -93.10855000000001,16.75243,0 -93.10938000000002,16.75257,0 -93.11023,16.75271,0 -93.11063,16.75278,0 -93.11116999999999,16.75286,0 -93.11200000000001,16.753,0 -93.11287,16.75311,0 -93.11371999999999,16.75323,0 -93.11458,16.75335,0 -93.1153,16.75346,0 -93.11623,16.7536,0 -93.11706000000001,16.75374,0 -93.11724,16.75377,0 -93.11790999999999,16.75389,0 -93.11879,16.75401,0 -93.11922000000001,16.75409,0 -93.11959,16.75415,0 -93.11989000000001,16.75419,0 -93.12042,16.75428,0 -93.12076999999999,16.75436,0 -93.12125,16.75444,0 -93.12167000000001,16.75451,0 -93.12213,16.75458,0 -93.12244999999999,16.75463,0 -93.12304,16.75472,0 -93.12309999999999,16.75473,0 -93.12318999999999,16.75474,0 -93.12322000000002,16.75475,0 -93.12342,16.75478,0 -93.12391,16.75485,0 -93.12481,16.75499,0 -93.12534000000001,16.75501,0 -93.12568,16.755,0 -93.12573,16.755,0 -93.12576,16.755,0 -93.12649,16.75491,0 -93.12737,16.75487,0 -93.12767999999998,16.7549,0 -93.12775000000001,16.75491,0 -93.12782,16.75491,0 -93.12788999999999,16.7549,0 -93.12799,16.75489,0 -93.12813,16.75487,0 -93.12833000000002,16.75483,0 -93.12855000000002,16.75481,0 -93.12873999999998,16.75477,0 -93.12903,16.75471,0 -93.12933,16.7547,0 -93.12947,16.75467,0 -93.12957,16.75465,0 -93.12987,16.75459,0 -93.1302,16.75454,0 -93.13079,16.75444,0 -93.13097999999999,16.7544,0 -93.13115000000001,16.75436,0 -93.13127999999999,16.75434,0 -93.13136,16.75432,0 -93.13151000000001,16.7543,0 -93.13163,16.75428,0 -93.13178999999998,16.75426,0 -93.13189000000001,16.75425,0 -93.13197,16.75425,0 -93.13206000000001,16.75424,0 -93.13211999999999,16.75425,0 -93.13221,16.75425,0 -93.13236000000001,16.75426,0 -93.13269,16.75428,0 -93.13325,16.75433,0 -93.13326000000001,16.75434,0 -93.13328999999999,16.75434,0 -93.13391,16.75439,0 -93.13422999999999,16.75441,0 -93.13459,16.75443,0 -93.13472000000002,16.75444,0 -93.13494,16.75445,0 -93.13544,16.75449,0 -93.13564,16.7545,0 -93.13585999999999,16.75451,0 -93.13630999999999,16.75454,0 -93.13641,16.75454,0 -93.13678000000002,16.75457,0 -93.13721,16.75461,0 -93.13791999999999,16.75466,0 -93.13838,16.75469,0 -93.13843,16.7547,0 -93.13873000000001,16.75471,0 -93.13907,16.75473,0 -93.13967,16.75477,0 -93.14101000000001,16.75487,0 -93.14106,16.75487,0 -93.14111,16.75488,0 -93.14113999999999,16.75488,0 -93.14184000000002,16.75492,0 -93.14208000000001,16.75495,0 -93.14225999999999,16.75496,0 -93.14228999999999,16.75496,0 -93.14235000000001,16.75497,0 -93.14252,16.75498,0 -93.14262999999998,16.75498,0 -93.14272,16.75499,0 -93.14341,16.75504,0 -93.14379000000001,16.75506,0 -93.14434000000001,16.7551,0 -93.14511,16.75516,0 -93.14530000000001,16.75517,0 -93.14566000000001,16.75519,0 -93.14569,16.75519,0 -93.14582,16.7552,0 -93.14617,16.75522,0 -93.14648,16.75525,0 -93.14662000000001,16.75526,0 -93.14679999999998,16.75527,0 -93.14713999999998,16.7553,0 -93.1478,16.75534,0 -93.14794999999999,16.75534,0 -93.14825999999999,16.75536,0 -93.14839000000002,16.75538,0 -93.14949,16.75543,0 -93.14978000000002,16.75546,0 -93.15065,16.75552,0 -93.15076000000001,16.75554,0 -93.15081000000001,16.75554,0 -93.15118999999999,16.75557,0 -93.15145,16.75559,0 -93.15179999999998,16.75562,0 -93.15190000000001,16.75562,0 -93.15289,16.75569,0 -93.15351,16.75572,0 -93.15380999999999,16.75574,0 -93.15434000000002,16.75578,0 -93.15466000000001,16.7558,0 -93.15488000000001,16.75581,0 -93.1551,16.75582,0 -93.15529999999998,16.75584,0 -93.15543,16.75584,0 -93.15598,16.75588,0 -93.15639,16.7559,0 -93.15651,16.75591,0 -93.15676999999999,16.75596,0 -93.15693,16.75599,0 -93.15728,16.75606,0 -93.15752000000001,16.7561,0 -93.15924000000001,16.75649,0 -93.15961,16.75658,0 -93.15971999999999,16.7566,0 -93.15998,16.75666,0 -93.16005,16.75668,0 -93.16051000000002,16.75678,0 -93.16070000000001,16.75683,0 -93.16092,16.75688,0 -93.16101000000002,16.7569,0 -93.16160000000001,16.75704,0 -93.16174999999998,16.75707,0 -93.16191999999998,16.75711,0 -93.16208,16.75715,0 -93.16512999999999,16.75783,0 -93.16561,16.75793,0 -93.16571,16.75796,0 -93.16676,16.75819,0 -93.16735999999999,16.75831,0 -93.16755999999999,16.75835,0 -93.16811,16.75847,0 -93.16856,16.75857,0 -93.16880999999998,16.75863,0 -93.16939000000001,16.75877,0 -93.17111,16.75914,0 -93.17176000000001,16.7593,0 -93.1721,16.75938,0 -93.17211,16.75938,0 -93.17283999999999,16.75954,0 -93.17313999999999,16.7596,0 -93.17325000000001,16.75963,0 -93.17384,16.75977,0 -93.17542,16.76011,0 -93.17554,16.76014,0 -93.17645,16.76035,0 -93.17663000000002,16.76039,0 -93.17700000000001,16.76047,0 -93.17724,16.76052,0 -93.17798999999999,16.76069,0 -93.17887,16.7609,0 -93.17896000000002,16.76092,0 -93.17986999999998,16.76112,0 -93.18094000000001,16.76134,0 -93.18199,16.76157,0 -93.18292000000001,16.76179,0 -93.18366,16.76195,0 -93.18391999999999,16.76201,0 -93.18427,16.76211,0 -93.18462,16.76221,0 -93.18495,16.76233,0 -93.18518,16.76243,0 -93.18550999999999,16.76259,0 -93.18585,16.76279,0 -93.18609000000001,16.76294,0 -93.18674,16.76338,0 -93.187,16.76355,0 -93.18722,16.7637,0 -93.18731000000001,16.76377,0 -93.18752000000002,16.76393,0 -93.1878,16.76412,0 -93.18839,16.76457,0 -93.1888,16.76485,0 -93.18977,16.76554,0 -93.19086000000001,16.76633,0 -93.19179,16.76699,0 -93.19212,16.76722,0 -93.19228,16.76732,0 -93.19228,16.76733,0 -93.19353,16.76819,0 -93.1938,16.76837,0 -93.19382,16.76839,0 -93.19391,16.76844,0 -93.19395,16.76848,0 -93.19396999999999,16.7685,0 -93.19410000000001,16.76859,0 -93.19468000000001,16.76902,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="f5ae7d3_5D13DEEE9A353B0A">
 		<name>VUELTA</name>
-		<open>1</open>
-		<styleUrl>#__managed_style_1E046F444640599A5681</styleUrl>
-		<Placemark id="f5ae7d3_5D13DEEE9A353B0A">
-			<name>VUELTA</name>
-			<description>Carreta - Escuela Trabajo Social</description>
-			<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">VUELTA</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<LineString>
-				<coordinates>
-					-93.19479,16.76887,0 -93.19462,16.76875,0 -93.19446000000001,16.76865,0 -93.19408999999999,16.76842,0 -93.19386000000002,16.76826,0 -93.19385,16.76825,0 -93.19352000000002,16.76804,0 -93.19278,16.76754,0 -93.19247999999999,16.76733,0 -93.19231999999998,16.76723,0 -93.19217,16.76712,0 -93.19186000000002,16.7669,0 -93.19117,16.76641,0 -93.19101999999999,16.7663,0 -93.19024999999999,16.76573,0 -93.18984,16.76543,0 -93.18924,16.765,0 -93.18885,16.76471,0 -93.18847999999998,16.76446,0 -93.18787,16.76403,0 -93.18758,16.76382,0 -93.18708999999998,16.76347,0 -93.18671999999999,16.7632,0 -93.18625000000002,16.76288,0 -93.18579,16.76259,0 -93.18501999999999,16.76223,0 -93.18486000000001,16.76216,0 -93.18396,16.76188,0 -93.18389999999999,16.76187,0 -93.18295999999999,16.76165,0 -93.18196,16.76144,0 -93.18096,16.76123,0 -93.18066,16.76117,0 -93.18048,16.76113,0 -93.17985999999999,16.76099,0 -93.17920000000001,16.76085,0 -93.17905,16.76082,0 -93.17897999999998,16.7608,0 -93.17892999999998,16.76079,0 -93.1786,16.7607,0 -93.17788,16.76053,0 -93.17749000000001,16.76045,0 -93.17702999999999,16.76035,0 -93.17690999999999,16.76032,0 -93.17672,16.76028,0 -93.17580999999998,16.76007,0 -93.17570000000001,16.76005,0 -93.17473,16.75983,0 -93.17469000000001,16.75982,0 -93.17464000000001,16.75981,0 -93.17431000000001,16.75974,0 -93.17421,16.75973,0 -93.1739,16.75966,0 -93.17337999999999,16.75955,0 -93.17326,16.75952,0 -93.17317,16.7595,0 -93.17283,16.75942,0 -93.17246999999999,16.75934,0 -93.17229,16.75931,0 -93.17212000000001,16.75927,0 -93.17173,16.75918,0 -93.17167000000001,16.75916,0 -93.17155,16.75913,0 -93.17146999999999,16.75911,0 -93.17122000000001,16.75906,0 -93.17097000000001,16.759,0 -93.17017,16.75883,0 -93.16983,16.75875,0 -93.16938,16.75864,0 -93.169,16.75855,0 -93.16886000000001,16.75852,0 -93.16866,16.75847,0 -93.16812,16.75837,0 -93.16798,16.75834,0 -93.16767,16.75827,0 -93.16705,16.75813,0 -93.16637,16.75798,0 -93.16624000000002,16.75795,0 -93.16608000000001,16.75792,0 -93.16574000000001,16.75786,0 -93.16562999999999,16.75783,0 -93.16495999999999,16.75768,0 -93.16452999999998,16.75758,0 -93.16402999999998,16.75746,0 -93.16266,16.75716,0 -93.16196999999998,16.75699,0 -93.16185000000002,16.75697,0 -93.16172,16.75694,0 -93.16154,16.7569,0 -93.16099,16.75677,0 -93.16088999999999,16.75674,0 -93.16083,16.75673,0 -93.16064,16.75669,0 -93.16046000000001,16.75665,0 -93.1601,16.75656,0 -93.16004,16.75655,0 -93.15998,16.75654,0 -93.15973,16.75648,0 -93.15962999999999,16.75646,0 -93.15945000000002,16.75643,0 -93.15921,16.75637,0 -93.15777,16.75604,0 -93.15698,16.75586,0 -93.1568,16.75583,0 -93.15651,16.7558,0 -93.1562,16.75577,0 -93.15528,16.75572,0 -93.15488999999999,16.75568,0 -93.15466000000001,16.75567,0 -93.15435999999998,16.75565,0 -93.15367999999999,16.75561,0 -93.15351,16.7556,0 -93.15300000000001,16.75557,0 -93.1521,16.75551,0 -93.15202000000001,16.7555,0 -93.15152,16.75547,0 -93.15123999999999,16.75545,0 -93.15116999999999,16.75545,0 -93.15094000000001,16.75543,0 -93.15076999999999,16.75542,0 -93.15065,16.75541,0 -93.14919,16.75531,0 -93.14907000000001,16.7553,0 -93.14888999999999,16.75529,0 -93.14851000000002,16.75527,0 -93.14843,16.75526,0 -93.14835000000001,16.75526,0 -93.14816,16.75525,0 -93.14794000000001,16.75524,0 -93.1478,16.75523,0 -93.14729000000001,16.7552,0 -93.14649,16.75514,0 -93.14636,16.75513,0 -93.14626,16.75512,0 -93.14567,16.75509,0 -93.14545999999999,16.75508,0 -93.14530999999999,16.75507,0 -93.14511999999999,16.75505,0 -93.14465,16.75501,0 -93.14421,16.75499,0 -93.14378000000002,16.75496,0 -93.14350999999999,16.75495,0 -93.14276,16.75487,0 -93.14233,16.75485,0 -93.14223000000001,16.75484,0 -93.14194999999999,16.75484,0 -93.14182,16.75482,0 -93.14176,16.75482,0 -93.14154000000001,16.75481,0 -93.1412,16.75478,0 -93.14104,16.75477,0 -93.14078000000002,16.75475,0 -93.13970999999999,16.75464,0 -93.1391,16.75465,0 -93.13898,16.75464,0 -93.13836999999999,16.75459,0 -93.13813,16.75457,0 -93.13803,16.75457,0 -93.13793,16.75456,0 -93.13762000000001,16.75453,0 -93.13714,16.75449,0 -93.13637,16.75443,0 -93.13625999999999,16.75442,0 -93.13611999999999,16.75441,0 -93.13585,16.75439,0 -93.13565,16.75438,0 -93.13531999999999,16.75435,0 -93.13472999999999,16.7543,0 -93.13330999999999,16.75421,0 -93.13307,16.75419,0 -93.13276,16.75418,0 -93.13239000000002,16.75414,0 -93.13227000000001,16.75413,0 -93.13217000000002,16.75412,0 -93.13206000000001,16.75412,0 -93.13187000000001,16.75413,0 -93.13181,16.75413,0 -93.13172000000002,16.75414,0 -93.13155999999999,16.75416,0 -93.13120000000001,16.75422,0 -93.1311,16.75424,0 -93.13087,16.75428,0 -93.13016000000002,16.75438,0 -93.12972000000002,16.75446,0 -93.12961999999999,16.75448,0 -93.12954000000001,16.75451,0 -93.12942,16.75455,0 -93.12927999999999,16.7546,0 -93.12922000000002,16.75463,0 -93.12903,16.75471,0 -93.12873999999998,16.75477,0 -93.12855000000002,16.75481,0 -93.12833000000002,16.75483,0 -93.12813,16.75487,0 -93.12799,16.75489,0 -93.12788999999999,16.7549,0 -93.12782,16.75491,0 -93.12775000000001,16.75491,0 -93.12767999999998,16.7549,0 -93.12737,16.75487,0 -93.12649,16.75491,0 -93.12576,16.755,0 -93.12573,16.755,0 -93.12568,16.755,0 -93.12534000000001,16.75501,0 -93.12481,16.75499,0 -93.12391,16.75485,0 -93.12342,16.75478,0 -93.12322000000002,16.75475,0 -93.12318999999999,16.75474,0 -93.12309999999999,16.75473,0 -93.12304,16.75472,0 -93.12244999999999,16.75463,0 -93.12213,16.75458,0 -93.12167000000001,16.75451,0 -93.12125,16.75444,0 -93.12076999999999,16.75436,0 -93.12042,16.75428,0 -93.11989000000001,16.75419,0 -93.11959,16.75415,0 -93.11922000000001,16.75409,0 -93.11879,16.75401,0 -93.11790999999999,16.75389,0 -93.11724,16.75377,0 -93.11706000000001,16.75374,0 -93.11623,16.7536,0 -93.1153,16.75346,0 -93.11458,16.75335,0 -93.11371999999999,16.75323,0 -93.11287,16.75311,0 -93.11200000000001,16.753,0 -93.11116999999999,16.75286,0 -93.11063,16.75278,0 -93.11023,16.75271,0 -93.10938000000002,16.75257,0 -93.10855000000001,16.75243,0 -93.10771,16.75229,0 -93.10709,16.7522,0 -93.10696,16.75214,0 -93.10692,16.75212,0 -93.10687999999999,16.7521,0 -93.10652,16.75204,0 -93.10636,16.75202,0 -93.10627999999998,16.752,0 -93.10572999999998,16.75191,0 -93.1053,16.75184,0 -93.10521999999999,16.75183,0 -93.10487000000002,16.75178,0 -93.10416999999998,16.75168,0 -93.10408,16.75166,0 -93.10391,16.75163,0 -93.10305000000001,16.7515,0 -93.10301,16.7515,0 -93.10297,16.75149,0 -93.10262,16.75144,0 -93.10191,16.75134,0 -93.10159,16.75126,0 -93.10116000000001,16.75116,0 -93.10069,16.75105,0 -93.09998,16.75089,0 -93.09959000000002,16.7508,0 -93.09958,16.7508,0 -93.09957,16.75079,0 -93.09956,16.75079,0 -93.09955000000001,16.75079,0 -93.09950000000001,16.75078,0 -93.09876999999999,16.75061,0 -93.09811000000001,16.75046,0 -93.09764,16.75035,0 -93.09734,16.75028,0 -93.09705000000001,16.75021,0 -93.09656,16.7501,0 -93.09605999999999,16.74999,0 -93.09598999999999,16.74997,0 -93.09509999999999,16.74979,0 -93.09456,16.74967,0 -93.09454999999998,16.74967,0 -93.09374,16.74948,0 -93.09356,16.74944,0 -93.09352,16.74943,0 -93.09283000000001,16.74928,0 -93.09233,16.74917,0 -93.09211000000001,16.74911,0 -93.09183,16.74906,0 -93.0915,16.74898,0 -93.09123,16.74891,0 -93.09099000000001,16.74886,0 -93.09048999999999,16.74875,0 -93.09015999999998,16.74867,0 -93.08831000000002,16.74827,0 -93.08757,16.74813,0 -93.08734,16.74808,0 -93.08684,16.74799,0 -93.08668,16.74795,0 -93.08646,16.74791,0 -93.08579,16.74778,0 -93.08569,16.74776,0 -93.08495000000001,16.74763,0 -93.08423999999999,16.74749,0 -93.08341,16.74728,0 -93.0834,16.74727,0 -93.08338999999999,16.74726,0 -93.08338000000001,16.74725,0 -93.08338000000001,16.74724,0 -93.08337000000002,16.74723,0 -93.08336,16.74723,0 -93.08335,16.74722,0 -93.08333,16.74721,0 -93.08331999999999,16.7472,0 -93.08329999999999,16.7472,0 -93.08329000000001,16.74719,0 -93.08328,16.74719,0 -93.08326000000001,16.74719,0 -93.08325000000002,16.74718,0 -93.08323,16.74719,0 -93.08322,16.74719,0 -93.08320000000002,16.74719,0 -93.08319,16.74719,0 -93.08318,16.7472,0 -93.08316000000001,16.7472,0 -93.08314999999999,16.74721,0 -93.08314,16.74721,0 -93.08313,16.74722,0 -93.08311999999999,16.74723,0 -93.08311,16.74724,0 -93.08289000000001,16.74722,0 -93.08264999999999,16.7472,0 -93.08207,16.74713,0 -93.0809,16.74692,0 -93.07973,16.74669,0 -93.07850000000001,16.74648,0 -93.07841999999999,16.74646,0 -93.07814000000002,16.7464,0 -93.07803,16.74637,0 -93.07789,16.74633,0 -93.07785,16.74632,0 -93.07744,16.74619,0 -93.07743000000001,16.74619,0 -93.07711999999999,16.74608,0 -93.07692000000002,16.74599,0 -93.07662999999999,16.74586,0 -93.07625000000002,16.74565,0 -93.07595999999999,16.74547,0 -93.0752,16.74501,0 -93.07486,16.74481,0 -93.07441,16.74455,0 -93.07351,16.7441,0 -93.07250999999999,16.7436,0 -93.07244,16.74356,0 -93.07234,16.74352,0 -93.07169999999999,16.74321,0 -93.07113,16.74293,0 -93.06994,16.74233,0 -93.06963999999999,16.74213,0 -93.06963,16.74212,0 -93.06947999999998,16.74203,0 -93.06932,16.74193,0 -93.06896999999999,16.74172,0 -93.0688,16.7416,0 -93.06757,16.7408,0 -93.06747999999999,16.74075,0 -93.06741,16.74071,0 -93.06653000000001,16.74011,0 -93.06645,16.74006,0 -93.06641000000002,16.74003,0 -93.06610999999999,16.73982,0 -93.06562,16.73947,0 -93.06479,16.7389,0 -93.06438,16.73862,0 -93.06436999999998,16.73861,0 -93.06395999999999,16.73832,0 -93.06313999999999,16.73775,0 -93.06255,16.73734,0 -93.06231000000001,16.73717,0 -93.06143,16.73667,0 -93.06100000000001,16.73647,0 -93.06084,16.73638,0 -93.05968,16.7358,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13DEEE9A9D4445">
-			<name>Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</name>
-			<description><![CDATA[<div><b>nombre</b>: Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_0B3E5E95E640599A5680</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.19479370000001,16.7688683,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="f5ae7d3_5D13DEEE9AD418CA">
-			<name>Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</name>
-			<description><![CDATA[<div><b>nombre</b>: Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</div><div><b>descripción</b>: <i>empty</i></div>]]></description>
-			<styleUrl>#__managed_style_2C4D0C928F40599A5681</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#__managed_schema">
-					<SimpleData name="str:bm9tYnJl">Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Point>
-				<coordinates>-93.05967619999998,16.7357996,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+		<description>Carreta - Escuela Trabajo Social</description>
+		<styleUrl>#__managed_style_098E87AE3A40599A5681</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#__managed_schema">
+				<SimpleData name="str:bm9tYnJl">VUELTA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				-93.19479,16.76887,0 -93.19462,16.76875,0 -93.19446000000001,16.76865,0 -93.19408999999999,16.76842,0 -93.19386000000002,16.76826,0 -93.19385,16.76825,0 -93.19352000000002,16.76804,0 -93.19278,16.76754,0 -93.19247999999999,16.76733,0 -93.19231999999998,16.76723,0 -93.19217,16.76712,0 -93.19186000000002,16.7669,0 -93.19117,16.76641,0 -93.19101999999999,16.7663,0 -93.19024999999999,16.76573,0 -93.18984,16.76543,0 -93.18924,16.765,0 -93.18885,16.76471,0 -93.18847999999998,16.76446,0 -93.18787,16.76403,0 -93.18758,16.76382,0 -93.18708999999998,16.76347,0 -93.18671999999999,16.7632,0 -93.18625000000002,16.76288,0 -93.18579,16.76259,0 -93.18501999999999,16.76223,0 -93.18486000000001,16.76216,0 -93.18396,16.76188,0 -93.18389999999999,16.76187,0 -93.18295999999999,16.76165,0 -93.18196,16.76144,0 -93.18096,16.76123,0 -93.18066,16.76117,0 -93.18048,16.76113,0 -93.17985999999999,16.76099,0 -93.17920000000001,16.76085,0 -93.17905,16.76082,0 -93.17897999999998,16.7608,0 -93.17892999999998,16.76079,0 -93.1786,16.7607,0 -93.17788,16.76053,0 -93.17749000000001,16.76045,0 -93.17702999999999,16.76035,0 -93.17690999999999,16.76032,0 -93.17672,16.76028,0 -93.17580999999998,16.76007,0 -93.17570000000001,16.76005,0 -93.17473,16.75983,0 -93.17469000000001,16.75982,0 -93.17464000000001,16.75981,0 -93.17431000000001,16.75974,0 -93.17421,16.75973,0 -93.1739,16.75966,0 -93.17337999999999,16.75955,0 -93.17326,16.75952,0 -93.17317,16.7595,0 -93.17283,16.75942,0 -93.17246999999999,16.75934,0 -93.17229,16.75931,0 -93.17212000000001,16.75927,0 -93.17173,16.75918,0 -93.17167000000001,16.75916,0 -93.17155,16.75913,0 -93.17146999999999,16.75911,0 -93.17122000000001,16.75906,0 -93.17097000000001,16.759,0 -93.17017,16.75883,0 -93.16983,16.75875,0 -93.16938,16.75864,0 -93.169,16.75855,0 -93.16886000000001,16.75852,0 -93.16866,16.75847,0 -93.16812,16.75837,0 -93.16798,16.75834,0 -93.16767,16.75827,0 -93.16705,16.75813,0 -93.16637,16.75798,0 -93.16624000000002,16.75795,0 -93.16608000000001,16.75792,0 -93.16574000000001,16.75786,0 -93.16562999999999,16.75783,0 -93.16495999999999,16.75768,0 -93.16452999999998,16.75758,0 -93.16402999999998,16.75746,0 -93.16266,16.75716,0 -93.16196999999998,16.75699,0 -93.16185000000002,16.75697,0 -93.16172,16.75694,0 -93.16154,16.7569,0 -93.16099,16.75677,0 -93.16088999999999,16.75674,0 -93.16083,16.75673,0 -93.16064,16.75669,0 -93.16046000000001,16.75665,0 -93.1601,16.75656,0 -93.16004,16.75655,0 -93.15998,16.75654,0 -93.15973,16.75648,0 -93.15962999999999,16.75646,0 -93.15945000000002,16.75643,0 -93.15921,16.75637,0 -93.15777,16.75604,0 -93.15698,16.75586,0 -93.1568,16.75583,0 -93.15651,16.7558,0 -93.1562,16.75577,0 -93.15528,16.75572,0 -93.15488999999999,16.75568,0 -93.15466000000001,16.75567,0 -93.15435999999998,16.75565,0 -93.15367999999999,16.75561,0 -93.15351,16.7556,0 -93.15300000000001,16.75557,0 -93.1521,16.75551,0 -93.15202000000001,16.7555,0 -93.15152,16.75547,0 -93.15123999999999,16.75545,0 -93.15116999999999,16.75545,0 -93.15094000000001,16.75543,0 -93.15076999999999,16.75542,0 -93.15065,16.75541,0 -93.14919,16.75531,0 -93.14907000000001,16.7553,0 -93.14888999999999,16.75529,0 -93.14851000000002,16.75527,0 -93.14843,16.75526,0 -93.14835000000001,16.75526,0 -93.14816,16.75525,0 -93.14794000000001,16.75524,0 -93.1478,16.75523,0 -93.14729000000001,16.7552,0 -93.14649,16.75514,0 -93.14636,16.75513,0 -93.14626,16.75512,0 -93.14567,16.75509,0 -93.14545999999999,16.75508,0 -93.14530999999999,16.75507,0 -93.14511999999999,16.75505,0 -93.14465,16.75501,0 -93.14421,16.75499,0 -93.14378000000002,16.75496,0 -93.14350999999999,16.75495,0 -93.14276,16.75487,0 -93.14233,16.75485,0 -93.14223000000001,16.75484,0 -93.14194999999999,16.75484,0 -93.14182,16.75482,0 -93.14176,16.75482,0 -93.14154000000001,16.75481,0 -93.1412,16.75478,0 -93.14104,16.75477,0 -93.14078000000002,16.75475,0 -93.13970999999999,16.75464,0 -93.1391,16.75465,0 -93.13898,16.75464,0 -93.13836999999999,16.75459,0 -93.13813,16.75457,0 -93.13803,16.75457,0 -93.13793,16.75456,0 -93.13762000000001,16.75453,0 -93.13714,16.75449,0 -93.13637,16.75443,0 -93.13625999999999,16.75442,0 -93.13611999999999,16.75441,0 -93.13585,16.75439,0 -93.13565,16.75438,0 -93.13531999999999,16.75435,0 -93.13472999999999,16.7543,0 -93.13330999999999,16.75421,0 -93.13307,16.75419,0 -93.13276,16.75418,0 -93.13239000000002,16.75414,0 -93.13227000000001,16.75413,0 -93.13217000000002,16.75412,0 -93.13206000000001,16.75412,0 -93.13187000000001,16.75413,0 -93.13181,16.75413,0 -93.13172000000002,16.75414,0 -93.13155999999999,16.75416,0 -93.13120000000001,16.75422,0 -93.1311,16.75424,0 -93.13087,16.75428,0 -93.13016000000002,16.75438,0 -93.12972000000002,16.75446,0 -93.12961999999999,16.75448,0 -93.12954000000001,16.75451,0 -93.12942,16.75455,0 -93.12927999999999,16.7546,0 -93.12922000000002,16.75463,0 -93.12903,16.75471,0 -93.12873999999998,16.75477,0 -93.12855000000002,16.75481,0 -93.12833000000002,16.75483,0 -93.12813,16.75487,0 -93.12799,16.75489,0 -93.12788999999999,16.7549,0 -93.12782,16.75491,0 -93.12775000000001,16.75491,0 -93.12767999999998,16.7549,0 -93.12737,16.75487,0 -93.12649,16.75491,0 -93.12576,16.755,0 -93.12573,16.755,0 -93.12568,16.755,0 -93.12534000000001,16.75501,0 -93.12481,16.75499,0 -93.12391,16.75485,0 -93.12342,16.75478,0 -93.12322000000002,16.75475,0 -93.12318999999999,16.75474,0 -93.12309999999999,16.75473,0 -93.12304,16.75472,0 -93.12244999999999,16.75463,0 -93.12213,16.75458,0 -93.12167000000001,16.75451,0 -93.12125,16.75444,0 -93.12076999999999,16.75436,0 -93.12042,16.75428,0 -93.11989000000001,16.75419,0 -93.11959,16.75415,0 -93.11922000000001,16.75409,0 -93.11879,16.75401,0 -93.11790999999999,16.75389,0 -93.11724,16.75377,0 -93.11706000000001,16.75374,0 -93.11623,16.7536,0 -93.1153,16.75346,0 -93.11458,16.75335,0 -93.11371999999999,16.75323,0 -93.11287,16.75311,0 -93.11200000000001,16.753,0 -93.11116999999999,16.75286,0 -93.11063,16.75278,0 -93.11023,16.75271,0 -93.10938000000002,16.75257,0 -93.10855000000001,16.75243,0 -93.10771,16.75229,0 -93.10709,16.7522,0 -93.10696,16.75214,0 -93.10692,16.75212,0 -93.10687999999999,16.7521,0 -93.10652,16.75204,0 -93.10636,16.75202,0 -93.10627999999998,16.752,0 -93.10572999999998,16.75191,0 -93.1053,16.75184,0 -93.10521999999999,16.75183,0 -93.10487000000002,16.75178,0 -93.10416999999998,16.75168,0 -93.10408,16.75166,0 -93.10391,16.75163,0 -93.10305000000001,16.7515,0 -93.10301,16.7515,0 -93.10297,16.75149,0 -93.10262,16.75144,0 -93.10191,16.75134,0 -93.10159,16.75126,0 -93.10116000000001,16.75116,0 -93.10069,16.75105,0 -93.09998,16.75089,0 -93.09959000000002,16.7508,0 -93.09958,16.7508,0 -93.09957,16.75079,0 -93.09956,16.75079,0 -93.09955000000001,16.75079,0 -93.09950000000001,16.75078,0 -93.09876999999999,16.75061,0 -93.09811000000001,16.75046,0 -93.09764,16.75035,0 -93.09734,16.75028,0 -93.09705000000001,16.75021,0 -93.09656,16.7501,0 -93.09605999999999,16.74999,0 -93.09598999999999,16.74997,0 -93.09509999999999,16.74979,0 -93.09456,16.74967,0 -93.09454999999998,16.74967,0 -93.09374,16.74948,0 -93.09356,16.74944,0 -93.09352,16.74943,0 -93.09283000000001,16.74928,0 -93.09233,16.74917,0 -93.09211000000001,16.74911,0 -93.09183,16.74906,0 -93.0915,16.74898,0 -93.09123,16.74891,0 -93.09099000000001,16.74886,0 -93.09048999999999,16.74875,0 -93.09015999999998,16.74867,0 -93.08831000000002,16.74827,0 -93.08757,16.74813,0 -93.08734,16.74808,0 -93.08684,16.74799,0 -93.08668,16.74795,0 -93.08646,16.74791,0 -93.08579,16.74778,0 -93.08569,16.74776,0 -93.08495000000001,16.74763,0 -93.08423999999999,16.74749,0 -93.08341,16.74728,0 -93.0834,16.74727,0 -93.08338999999999,16.74726,0 -93.08338000000001,16.74725,0 -93.08338000000001,16.74724,0 -93.08337000000002,16.74723,0 -93.08336,16.74723,0 -93.08335,16.74722,0 -93.08333,16.74721,0 -93.08331999999999,16.7472,0 -93.08329999999999,16.7472,0 -93.08329000000001,16.74719,0 -93.08328,16.74719,0 -93.08326000000001,16.74719,0 -93.08325000000002,16.74718,0 -93.08323,16.74719,0 -93.08322,16.74719,0 -93.08320000000002,16.74719,0 -93.08319,16.74719,0 -93.08318,16.7472,0 -93.08316000000001,16.7472,0 -93.08314999999999,16.74721,0 -93.08314,16.74721,0 -93.08313,16.74722,0 -93.08311999999999,16.74723,0 -93.08311,16.74724,0 -93.08289000000001,16.74722,0 -93.08264999999999,16.7472,0 -93.08207,16.74713,0 -93.0809,16.74692,0 -93.07973,16.74669,0 -93.07850000000001,16.74648,0 -93.07841999999999,16.74646,0 -93.07814000000002,16.7464,0 -93.07803,16.74637,0 -93.07789,16.74633,0 -93.07785,16.74632,0 -93.07744,16.74619,0 -93.07743000000001,16.74619,0 -93.07711999999999,16.74608,0 -93.07692000000002,16.74599,0 -93.07662999999999,16.74586,0 -93.07625000000002,16.74565,0 -93.07595999999999,16.74547,0 -93.0752,16.74501,0 -93.07486,16.74481,0 -93.07441,16.74455,0 -93.07351,16.7441,0 -93.07250999999999,16.7436,0 -93.07244,16.74356,0 -93.07234,16.74352,0 -93.07169999999999,16.74321,0 -93.07113,16.74293,0 -93.06994,16.74233,0 -93.06963999999999,16.74213,0 -93.06963,16.74212,0 -93.06947999999998,16.74203,0 -93.06932,16.74193,0 -93.06896999999999,16.74172,0 -93.0688,16.7416,0 -93.06757,16.7408,0 -93.06747999999999,16.74075,0 -93.06741,16.74071,0 -93.06653000000001,16.74011,0 -93.06645,16.74006,0 -93.06641000000002,16.74003,0 -93.06610999999999,16.73982,0 -93.06562,16.73947,0 -93.06479,16.7389,0 -93.06438,16.73862,0 -93.06436999999998,16.73861,0 -93.06395999999999,16.73832,0 -93.06313999999999,16.73775,0 -93.06255,16.73734,0 -93.06231000000001,16.73717,0 -93.06143,16.73667,0 -93.06100000000001,16.73647,0 -93.06084,16.73638,0 -93.05968,16.7358,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
 </Document>
 </kml>

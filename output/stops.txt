@@ -16,7 +16,3 @@ stop_id,stop_name,stop_lat,stop_lon
 15,UNACH,16.75557674371,-93.15419813467626
 16,Librería UNACH,16.75645083829898,-93.1588876423937
 17,Librería UNACH,16.75615717882155,-93.15875315963493
-18,"Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México",16.7358919,-93.0596189
-19,"Carr. Internacional 5-233, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México",16.7690248,-93.19468340000002
-20,"Calle Libramiento Nte. Pte. 1778, Plan de Ayala, 29020 Tuxtla Gutiérrez, Chis., México",16.7688683,-93.1947937
-21,"Impecsa 113, Los Ranchos, 29096 Tuxtla Gutiérrez, Chis., México",16.7357996,-93.05967619999998
