@@ -32,7 +32,7 @@ class Route:
         self.name = name
         self.description = description
         self.points = points
-        
+
         # Paradas asociadas a esta ruta
         self.stops = []
 
@@ -93,3 +93,55 @@ class StopTime:
             "stop_id": self.stop_id,
             "stop_sequence": self.stop_sequence
         }
+
+
+class MatchedStop:
+
+    def __init__(
+        self,
+        stop,
+        shape_index,
+        distance
+    ):
+
+        self.stop = stop
+        self.shape_index = shape_index
+        self.distance = distance
+
+        self.segment = None
+        self.side = None
+        self.confidence = 1.0
+
+    def __str__(self):
+
+        side = self.side if self.side else "?"
+
+        return (
+            f"{self.stop.name} | "
+            f"shape={self.shape_index} | "
+            f"{self.distance:.1f} m | "
+            f"side={side}"
+        )
+
+
+class MatchedSegment:
+
+    def __init__(
+        self,
+        segment_index,
+        start,
+        end,
+        distance
+    ):
+
+        self.segment_index = segment_index
+        self.start = start
+        self.end = end
+        self.distance = distance
+
+    def __str__(self):
+
+        return (
+            f"Segmento {self.segment_index} "
+            f"({self.distance:.1f} m)"
+        )

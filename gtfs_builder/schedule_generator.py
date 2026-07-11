@@ -20,9 +20,9 @@ class ScheduleGenerator:
             hora = 8
             minuto = 0
 
-            for secuencia, item in enumerate(route.stops, start=1):
+            for secuencia, matched_stop in enumerate(route.stops, start=1):
 
-                stop = item["stop"]
+                stop = matched_stop.stop
 
                 tiempo = f"{hora:02}:{minuto:02}:00"
 
