@@ -4,11 +4,8 @@ UrbanTransit GTFS Builder MX
 Archivo:
 exporter.py
 
-Versión:
-v0.6 - Sprint 3
-
 Descripción:
-Genera los archivos GTFS del proyecto.
+Genera y exporta los archivos GTFS del proyecto.
 """
 
 import csv
@@ -24,35 +21,61 @@ class GTFSExporter:
 
         self.output_folder = Path(config.OUTPUT_FOLDER)
         self.output_folder.mkdir(exist_ok=True)
-        
+
         self.archive_folder = Path("archives")
         self.archive_folder.mkdir(exist_ok=True)
-        
+
+    # =====================================================
+    # UTILITIES
+    # =====================================================
+
+    def write_csv(self, filename, headers, rows):
+
+        file = self.output_folder / filename
+
+        with open(
+            file,
+            "w",
+            newline="",
+            encoding="utf-8"
+        ) as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow(headers)
+
+            writer.writerows(rows)
+
+        return file
+
     # =====================================================
     # STOPS
     # =====================================================
 
     def export_stops(self, stops):
 
-        print("\n📄 Generando stops.txt...")
+        rows = [
 
-        file = self.output_folder / "stops.txt"
+            stop.to_dict().values()
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            for stop in stops
 
-            writer = csv.writer(f)
+        ]
 
-            writer.writerow([
+        self.write_csv(
+
+            "stops.txt",
+
+            [
                 "stop_id",
                 "stop_name",
                 "stop_lat",
                 "stop_lon"
-            ])
+            ],
 
-            for stop in stops:
-                writer.writerow(stop.to_dict().values())
+            rows
 
-        print("✅ stops.txt generado.")
+        )
 
     # =====================================================
     # ROUTES
@@ -60,31 +83,39 @@ class GTFSExporter:
 
     def export_routes(self, routes):
 
-        print("\n📄 Generando routes.txt...")
+        rows = []
 
-        file = self.output_folder / "routes.txt"
+        for i, route in enumerate(routes, start=1):
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            rows.append([
 
-            writer = csv.writer(f)
+                i,
 
-            writer.writerow([
+                config.AGENCY_ID,
+
+                route.name,
+
+                route.description,
+
+                3
+
+            ])
+
+        self.write_csv(
+
+            "routes.txt",
+
+            [
                 "route_id",
+                "agency_id",
                 "route_short_name",
                 "route_long_name",
                 "route_type"
-            ])
+            ],
 
-            for i, route in enumerate(routes, start=1):
+            rows
 
-                writer.writerow([
-                    i,
-                    route.name,
-                    route.description,
-                    3
-                ])
-
-        print("✅ routes.txt generado.")
+        )
 
     # =====================================================
     # SHAPES
@@ -92,35 +123,43 @@ class GTFSExporter:
 
     def export_shapes(self, routes):
 
-        print("\n📄 Generando shapes.txt...")
+        rows = []
 
-        file = self.output_folder / "shapes.txt"
+        for shape_id, route in enumerate(routes, start=1):
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            for sequence, point in enumerate(
+                route.points,
+                start=1
+            ):
 
-            writer = csv.writer(f)
+                lon, lat, *_ = point.split(",")
 
-            writer.writerow([
+                rows.append([
+
+                    shape_id,
+
+                    float(lat),
+
+                    float(lon),
+
+                    sequence
+
+                ])
+
+        self.write_csv(
+
+            "shapes.txt",
+
+            [
                 "shape_id",
                 "shape_pt_lat",
                 "shape_pt_lon",
                 "shape_pt_sequence"
-            ])
+            ],
 
-            for shape_id, route in enumerate(routes, start=1):
+            rows
 
-                for sequence, point in enumerate(route.points, start=1):
-
-                    lon, lat, *_ = point.split(",")
-
-                    writer.writerow([
-                        shape_id,
-                        float(lat),
-                        float(lon),
-                        sequence
-                    ])
-
-        print("✅ shapes.txt generado.")
+        )
 
     # =====================================================
     # TRIPS
@@ -128,31 +167,38 @@ class GTFSExporter:
 
     def export_trips(self, trips):
 
-        print("\n📄 Generando trips.txt...")
+        rows = [
 
-        file = self.output_folder / "trips.txt"
+            [
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+                trip.route_id,
 
-            writer = csv.writer(f)
+                trip.service_id,
 
-            writer.writerow([
+                trip.trip_id,
+
+                trip.shape_id
+
+            ]
+
+            for trip in trips
+
+        ]
+
+        self.write_csv(
+
+            "trips.txt",
+
+            [
                 "route_id",
                 "service_id",
                 "trip_id",
                 "shape_id"
-            ])
+            ],
 
-            for trip in trips:
+            rows
 
-                writer.writerow([
-                    trip.route_id,
-                    trip.service_id,
-                    trip.trip_id,
-                    trip.shape_id
-                ])
-
-        print("✅ trips.txt generado.")
+        )
 
     # =====================================================
     # STOP TIMES
@@ -160,33 +206,41 @@ class GTFSExporter:
 
     def export_stop_times(self, stop_times):
 
-        print("\n📄 Generando stop_times.txt...")
+        rows = [
 
-        file = self.output_folder / "stop_times.txt"
+            [
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+                stop_time.trip_id,
 
-            writer = csv.writer(f)
+                stop_time.arrival_time,
 
-            writer.writerow([
+                stop_time.departure_time,
+
+                stop_time.stop_id,
+
+                stop_time.stop_sequence
+
+            ]
+
+            for stop_time in stop_times
+
+        ]
+
+        self.write_csv(
+
+            "stop_times.txt",
+
+            [
                 "trip_id",
                 "arrival_time",
                 "departure_time",
                 "stop_id",
                 "stop_sequence"
-            ])
+            ],
 
-            for stop_time in stop_times:
+            rows
 
-                writer.writerow([
-                    stop_time.trip_id,
-                    stop_time.arrival_time,
-                    stop_time.departure_time,
-                    stop_time.stop_id,
-                    stop_time.stop_sequence
-                ])
-
-        print("✅ stop_times.txt generado.")
+        )
 
     # =====================================================
     # AGENCY
@@ -194,31 +248,39 @@ class GTFSExporter:
 
     def export_agency(self):
 
-        print("\n📄 Generando agency.txt...")
+        self.write_csv(
 
-        file = self.output_folder / "agency.txt"
+            "agency.txt",
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            [
 
-            writer = csv.writer(f)
-
-            writer.writerow([
                 "agency_id",
+
                 "agency_name",
+
                 "agency_url",
+
                 "agency_timezone",
+
                 "agency_lang"
-            ])
 
-            writer.writerow([
+            ],
+
+            [[
+
                 config.AGENCY_ID,
-                config.AGENCY_NAME,
-                config.AGENCY_URL,
-                config.TIMEZONE,
-                config.LANGUAGE
-            ])
 
-        print("✅ agency.txt generado.")
+                config.AGENCY_NAME,
+
+                config.AGENCY_URL,
+
+                config.TIMEZONE,
+
+                config.LANGUAGE
+
+            ]]
+
+        )
 
     # =====================================================
     # CALENDAR
@@ -226,41 +288,59 @@ class GTFSExporter:
 
     def export_calendar(self):
 
-        print("\n📄 Generando calendar.txt...")
+        self.write_csv(
 
-        file = self.output_folder / "calendar.txt"
+            "calendar.txt",
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            [
 
-            writer = csv.writer(f)
-
-            writer.writerow([
                 "service_id",
+
                 "monday",
+
                 "tuesday",
+
                 "wednesday",
+
                 "thursday",
+
                 "friday",
+
                 "saturday",
+
                 "sunday",
+
                 "start_date",
+
                 "end_date"
-            ])
 
-            writer.writerow([
+            ],
+
+            [[
+
                 config.SERVICE_ID,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                config.START_DATE,
-                config.END_DATE
-            ])
 
-        print("✅ calendar.txt generado.")
+                1,
+
+                1,
+
+                1,
+
+                1,
+
+                1,
+
+                1,
+
+                1,
+
+                config.START_DATE,
+
+                config.END_DATE
+
+            ]]
+
+        )
 
     # =====================================================
     # FEED INFO
@@ -268,47 +348,94 @@ class GTFSExporter:
 
     def export_feed_info(self):
 
-        print("\n📄 Generando feed_info.txt...")
+        self.write_csv(
 
-        file = self.output_folder / "feed_info.txt"
+            "feed_info.txt",
 
-        with open(file, "w", newline="", encoding="utf-8") as f:
+            [
 
-            writer = csv.writer(f)
-
-            writer.writerow([
                 "feed_publisher_name",
+
                 "feed_publisher_url",
+
                 "feed_lang",
+
                 "feed_start_date",
+
                 "feed_end_date",
+
                 "feed_version",
+
                 "feed_contact_email",
+
                 "feed_contact_url"
-            ])
 
-            writer.writerow([
+            ],
+
+            [[
+
                 config.AGENCY_NAME,
-                config.AGENCY_URL,
-                config.LANGUAGE,
-                config.START_DATE,
-                config.END_DATE,
-                config.FEED_VERSION,
-                config.CONTACT_EMAIL,
-                config.CONTACT_URL
-            ])
 
-        print("✅ feed_info.txt generado.")
-        
+                config.AGENCY_URL,
+
+                config.LANGUAGE,
+
+                config.START_DATE,
+
+                config.END_DATE,
+
+                config.FEED_VERSION,
+
+                config.CONTACT_EMAIL,
+
+                config.CONTACT_URL
+
+            ]]
+
+        )
+
+    # =====================================================
+    # ZIP
+    # =====================================================
+
     def export_zip(self):
 
-        print("\n📦 Generando archivo ZIP...")
+        zip_name = (
 
-        zip_name = self.archive_folder / f"GTFS_{config.FEED_VERSION}.zip"
+            self.archive_folder
 
-        with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zipf:
+            / f"GTFS_{config.FEED_VERSION}.zip"
+
+        )
+
+        with zipfile.ZipFile(
+
+            zip_name,
+
+            "w",
+
+            zipfile.ZIP_DEFLATED
+
+        ) as zipf:
 
             for file in self.output_folder.glob("*.txt"):
-                zipf.write(file, arcname=file.name)
 
-        print(f"✅ ZIP generado: {zip_name}")
+                zipf.write(
+
+                    file,
+
+                    arcname=file.name
+
+                )
+
+        print("\n===================================")
+        print("EXPORTER")
+        print("===================================")
+
+        print(
+            f"✅ 8 archivos GTFS exportados"
+        )
+
+        print(
+            f"📦 ZIP generado: {zip_name}"
+        )

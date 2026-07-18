@@ -111,6 +111,8 @@ class MatchedStop:
         self.segment = None
         self.side = None
         self.confidence = 1.0
+        self.distance_from_start = 0.0
+        self.travel_time = 0
 
     def __str__(self):
 

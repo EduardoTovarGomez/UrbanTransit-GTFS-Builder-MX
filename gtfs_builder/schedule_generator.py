@@ -1,3 +1,6 @@
+from datetime import datetime, timedelta
+
+from gtfs_builder import config
 from gtfs_builder.models import StopTime
 
 
@@ -5,49 +8,87 @@ class ScheduleGenerator:
 
     def generate(self, trips, routes):
 
-        print("\n⏰ Generando horarios...\n")
+        print("\n===================================")
+        print("SCHEDULE GENERATOR")
+        print("===================================")
 
         stop_times = []
 
+        start_time = datetime.strptime(
+            "08:00:00",
+            "%H:%M:%S"
+        )
+
         for trip in trips:
 
-            # Buscar la ruta correspondiente al viaje
             route = next(
-                r for r in routes
-                if r.route_id == trip.route_id
+
+                route
+
+                for route in routes
+
+                if route.route_id == trip.route_id
+
             )
 
-            hora = 8
-            minuto = 0
+            for sequence, matched_stop in enumerate(
 
-            for secuencia, matched_stop in enumerate(route.stops, start=1):
+                route.stops,
 
-                stop = matched_stop.stop
+                start=1
 
-                tiempo = f"{hora:02}:{minuto:02}:00"
+            ):
 
-                stop_time = StopTime(
-                    trip_id=trip.trip_id,
-                    arrival_time=tiempo,
-                    departure_time=tiempo,
-                    stop_id=stop.stop_id,
-                    stop_sequence=secuencia
+                current_time = (
+
+                    start_time
+
+                    +
+
+                    timedelta(
+                        seconds=matched_stop.travel_time
+                    )
+
                 )
 
-                stop_times.append(stop_time)
-
-                print(
-                    f"🚌 {trip.trip_id} -> "
-                    f"{stop.name} "
-                    f"({tiempo})"
+                time_string = current_time.strftime(
+                    "%H:%M:%S"
                 )
 
-                minuto += 2
+                stop_times.append(
 
-                while minuto >= 60:
-                    hora += 1
-                    minuto -= 60
+                    StopTime(
 
-        print(f"\n✅ {len(stop_times)} horarios generados.")
+                        trip_id=trip.trip_id,
+
+                        arrival_time=time_string,
+
+                        departure_time=time_string,
+
+                        stop_id=matched_stop.stop.stop_id,
+
+                        stop_sequence=sequence
+
+                    )
+
+                )
+
+                if config.DEBUG:
+
+                    print(
+
+                        f"🚌 "
+
+                        f"{trip.trip_id:<8}"
+
+                        f"{time_string}  "
+
+                        f"{matched_stop.stop.name}"
+
+                    )
+
+        print(
+            f"\n✅ {len(stop_times)} horarios generados."
+        )
 
         return stop_times

@@ -1,75 +1,104 @@
-from gtfs_builder.parser import KMLParser
-from gtfs_builder.exporter import GTFSExporter
-from gtfs_builder.trip_generator import TripGenerator
-from gtfs_builder.schedule_generator import ScheduleGenerator
 from gtfs_builder import config
-from gtfs_builder.validator import ProjectValidator
-from gtfs_builder.ui import ConsoleUI
+
+from gtfs_builder.exporter import GTFSExporter
+from gtfs_builder.parser import KMLParser
 from gtfs_builder.route_matcher import RouteMatcher
+from gtfs_builder.schedule_generator import ScheduleGenerator
+from gtfs_builder.time_engine import TimeEngine
+from gtfs_builder.trip_generator import TripGenerator
+from gtfs_builder.ui import ConsoleUI
+from gtfs_builder.validator import ProjectValidator
 
 
-ui = ConsoleUI()
+def main():
 
-ui.banner()
+    ui = ConsoleUI()
+    ui.banner()
 
-# ==========================================
-# Cargar y analizar KML
-# ==========================================
+    # =====================================================
+    # LOAD PROJECT
+    # =====================================================
 
-parser = KMLParser(config.INPUT_KML)
+    parser = KMLParser(config.INPUT_KML)
 
-parser.load()
-parser.parse()
+    parser.load()
+    parser.parse()
 
-validator = ProjectValidator(parser)
-validator.validate()
+    routes = parser.routes
+    stops = parser.stops
 
-matcher = RouteMatcher(parser.routes, parser.stops)
-matcher.match()
+    # =====================================================
+    # VALIDATION
+    # =====================================================
 
-print("\n" + "=" * 35)
-print("RESUMEN DEL PROYECTO")
-print("=" * 35)
+    validator = ProjectValidator(parser)
+    validator.validate()
 
-print(f"Paradas almacenadas : {len(parser.stops)}")
-print(f"Rutas almacenadas   : {len(parser.routes)}")
+    # =====================================================
+    # ROUTE MATCHING
+    # =====================================================
 
-# ==========================================
-# Generar viajes
-# ==========================================
+    matcher = RouteMatcher(
+        routes,
+        stops
+    )
 
-trip_generator = TripGenerator()
+    matcher.match()
 
-trips = trip_generator.generate(parser.routes)
+    # =====================================================
+    # TIME ENGINE
+    # =====================================================
 
-# ==========================================
-# Generar horarios
-# ==========================================
+    time_engine = TimeEngine()
 
-schedule_generator = ScheduleGenerator()
+    for route in routes:
+
+        time_engine.build_shape_distances(route)
+
+        time_engine.assign_stop_distances(route)
+
+        time_engine.calculate_travel_times(route)
+
+    # =====================================================
+    # GTFS OBJECTS
+    # =====================================================
+
+    trip_generator = TripGenerator()
+
+    trips = trip_generator.generate(
+        routes
+    )
+
+    schedule_generator = ScheduleGenerator()
+
+    stop_times = schedule_generator.generate(
+        trips,
+        routes
+    )
+
+    # =====================================================
+    # EXPORT
+    # =====================================================
+
+    exporter = GTFSExporter()
+
+    exporter.export_stops(stops)
+    exporter.export_routes(routes)
+    exporter.export_shapes(routes)
+    exporter.export_trips(trips)
+    exporter.export_stop_times(stop_times)
+    exporter.export_agency()
+    exporter.export_calendar()
+    exporter.export_feed_info()
+    exporter.export_zip()
+
+    # =====================================================
+    # FINISH
+    # =====================================================
+
+    ui.finish(parser)
 
 
-stop_times = schedule_generator.generate(
-    trips,
-    parser.routes
-)
+if __name__ == "__main__":
 
-
-# ==========================================
-# Exportar archivos GTFS
-# ==========================================
-
-exporter = GTFSExporter()
-
-exporter.export_stops(parser.stops)
-exporter.export_routes(parser.routes)
-exporter.export_shapes(parser.routes)
-exporter.export_trips(trips)
-exporter.export_stop_times(stop_times)
-exporter.export_agency()
-exporter.export_calendar()
-exporter.export_feed_info()
-
-exporter.export_zip()
-
-ui.finish(parser)
+    main()

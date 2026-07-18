@@ -55,3 +55,63 @@ def cross(v1, v2):
         v1[0] * v2[1]
         - v1[1] * v2[0]
     )
+    
+def point_side(px, py, x1, y1, x2, y2):
+
+    value = (
+        (x2 - x1) * (py - y1)
+        - (y2 - y1) * (px - x1)
+    )
+
+    if value > 0:
+        return "LEFT"
+
+    elif value < 0:
+        return "RIGHT"
+
+    return "CENTER"
+
+def project_point_on_segment(point, start, end):
+
+    px, py = point
+    ax, ay = start
+    bx, by = end
+
+    abx = bx - ax
+    aby = by - ay
+
+    apx = px - ax
+    apy = py - ay
+
+    ab_squared = abx * abx + aby * aby
+
+    if ab_squared == 0:
+
+        return start, 0.0
+
+    t = (
+        apx * abx +
+        apy * aby
+    ) / ab_squared
+
+    t = max(0.0, min(1.0, t))
+
+    projection = (
+        ax + t * abx,
+        ay + t * aby
+    )
+
+    return projection, t
+
+def distance_along_segment(point, start, end):
+
+    projection, _ = project_point_on_segment(
+        point,
+        start,
+        end
+    )
+
+    return haversine_distance(
+        start,
+        projection
+    )

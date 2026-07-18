@@ -1,8 +1,10 @@
 import math
 
+from gtfs_builder import config
+from gtfs_builder.geometry import point_side
 from gtfs_builder.models import (
-    MatchedStop,
-    MatchedSegment
+    MatchedSegment,
+    MatchedStop
 )
 
 
@@ -13,6 +15,9 @@ class RouteMatcher:
         self.routes = routes
         self.stops = stops
 
+    # =====================================================
+    # GEOMETRY
+    # =====================================================
 
     def parse_shape_points(self, route):
 
@@ -20,20 +25,17 @@ class RouteMatcher:
 
         for point in route.points:
 
-            values = point.split(",")
-
-            lon = float(values[0])
-            lat = float(values[1])
+            lon, lat = map(
+                float,
+                point.split(",")[:2]
+            )
 
             coordinates.append((lon, lat))
 
         return coordinates
 
-
-
     def calculate_distance(self, stop, point):
 
-        # Radio medio de la Tierra (metros)
         R = 6371000
 
         lat1 = math.radians(stop.lat)
@@ -59,7 +61,9 @@ class RouteMatcher:
 
         return R * c
 
-
+    # =====================================================
+    # MATCHING
+    # =====================================================
 
     def find_closest_shape_point(self, stop, shape):
 
@@ -68,7 +72,10 @@ class RouteMatcher:
 
         for index, point in enumerate(shape):
 
-            distance = self.calculate_distance(stop, point)
+            distance = self.calculate_distance(
+                stop,
+                point
+            )
 
             if distance < shortest_distance:
 
@@ -105,10 +112,48 @@ class RouteMatcher:
 
         return best_segment
 
+    # =====================================================
+    # CLASSIFICATION
+    # =====================================================
+
+    def classify_side(self, stop, segment):
+
+        return point_side(
+            stop.lon,
+            stop.lat,
+            segment.start[0],
+            segment.start[1],
+            segment.end[0],
+            segment.end[1]
+        )
+
+    def keep_correct_side(self, route):
+
+        accepted = []
+        rejected = []
+
+        for matched_stop in route.stops:
+
+            if matched_stop.side == config.STOP_SIDE:
+
+                accepted.append(matched_stop)
+
+            else:
+
+                rejected.append(matched_stop)
+
+        route.stops = accepted
+
+        return len(accepted), len(rejected)
+
+    # =====================================================
+    # MAIN
+    # =====================================================
+
     def match(self):
 
         print("\n===================================")
-        print("ASOCIANDO PARADAS A RUTAS")
+        print("ROUTE MATCHER")
         print("===================================")
 
         for route in self.routes:
@@ -116,9 +161,6 @@ class RouteMatcher:
             shape = self.parse_shape_points(route)
 
             route.stops.clear()
-
-            print(f"\n🛣️ {route.name}")
-            print(f"   Shape: {len(shape)} puntos")
 
             for stop in self.stops:
 
@@ -135,21 +177,46 @@ class RouteMatcher:
 
                 matched_stop.segment = segment
 
-                route.stops.append(matched_stop)
+                matched_stop.side = self.classify_side(
+                    stop,
+                    segment
+                )
+
+                route.stops.append(
+                    matched_stop
+                )
 
             route.stops.sort(
                 key=lambda item: item.segment.segment_index
             )
 
-            print("\n   Orden detectado:\n")
+            accepted, rejected = self.keep_correct_side(
+                route
+            )
 
-            for item in route.stops:
+            print(f"\n🛣️ {route.name}")
+            print(
+                f"   ✓ Shape: {len(shape)} puntos"
+            )
+            print(
+                f"   ✓ Paradas aceptadas : {accepted}"
+            )
+            print(
+                f"   ✓ Paradas descartadas : {rejected}"
+            )
 
-                print(
-                    f"✓ "
-                    f"{item.segment.segment_index:>3} "
-                    f"{item.distance:8.1f} m "
-                    f"{item.stop.name}"
-                )
+            if config.DEBUG:
+
+                print("\n   Orden detectado:\n")
+
+                for item in route.stops:
+
+                    print(
+                        f"✓ "
+                        f"{item.segment.segment_index:>3} "
+                        f"{item.distance:8.1f} m "
+                        f"{item.side:>6} "
+                        f"{item.stop.name}"
+                    )
 
         print("\n✅ Asociación finalizada.")
