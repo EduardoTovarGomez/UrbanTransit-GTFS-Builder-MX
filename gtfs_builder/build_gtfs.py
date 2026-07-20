@@ -2,6 +2,7 @@ from gtfs_builder import config
 
 from gtfs_builder.exporter import GTFSExporter
 from gtfs_builder.parser import KMLParser
+from gtfs_builder.project_loader import ProjectLoader
 from gtfs_builder.route_matcher import RouteMatcher
 from gtfs_builder.schedule_generator import ScheduleGenerator
 from gtfs_builder.time_engine import TimeEngine
@@ -16,87 +17,108 @@ def main():
     ui.banner()
 
     # =====================================================
-    # LOAD PROJECT
+    # BUSCAR PROYECTOS
     # =====================================================
 
-    parser = KMLParser(config.INPUT_KML)
+    loader = ProjectLoader(config.INPUT_FOLDER)
 
-    parser.load()
-    parser.parse()
+    projects = loader.get_kml_files()
 
-    routes = parser.routes
-    stops = parser.stops
+    if not projects:
 
-    # =====================================================
-    # VALIDATION
-    # =====================================================
+        print("❌ No se encontraron archivos KML.")
+        return
 
-    validator = ProjectValidator(parser)
-    validator.validate()
+    print(f"\n📁 {len(projects)} proyecto(s) encontrado(s).\n")
 
     # =====================================================
-    # ROUTE MATCHING
+    # PROCESAR CADA PROYECTO
     # =====================================================
 
-    matcher = RouteMatcher(
-        routes,
-        stops
-    )
+    for project in projects:
 
-    matcher.match()
+        print("=" * 60)
+        print(f"🚍 Procesando: {project.name}")
+        print("=" * 60)
 
-    # =====================================================
-    # TIME ENGINE
-    # =====================================================
+        parser = KMLParser(project)
 
-    time_engine = TimeEngine()
+        parser.load()
+        parser.parse()
 
-    for route in routes:
+        routes = parser.routes
+        stops = parser.stops
 
-        time_engine.build_shape_distances(route)
+        # =====================================================
+        # VALIDACIÓN
+        # =====================================================
 
-        time_engine.assign_stop_distances(route)
+        validator = ProjectValidator(parser)
+        validator.validate()
 
-        time_engine.calculate_travel_times(route)
+        # =====================================================
+        # ROUTE MATCHER
+        # =====================================================
 
-    # =====================================================
-    # GTFS OBJECTS
-    # =====================================================
+        matcher = RouteMatcher(
+            routes,
+            stops
+        )
 
-    trip_generator = TripGenerator()
+        matcher.match()
 
-    trips = trip_generator.generate(
-        routes
-    )
+        # =====================================================
+        # TIME ENGINE
+        # =====================================================
 
-    schedule_generator = ScheduleGenerator()
+        time_engine = TimeEngine()
 
-    stop_times = schedule_generator.generate(
-        trips,
-        routes
-    )
+        for route in routes:
 
-    # =====================================================
-    # EXPORT
-    # =====================================================
+            time_engine.build_shape_distances(route)
 
-    exporter = GTFSExporter()
+            time_engine.assign_stop_distances(route)
 
-    exporter.export_stops(stops)
-    exporter.export_routes(routes)
-    exporter.export_shapes(routes)
-    exporter.export_trips(trips)
-    exporter.export_stop_times(stop_times)
-    exporter.export_agency()
-    exporter.export_calendar()
-    exporter.export_feed_info()
-    exporter.export_zip()
+            time_engine.calculate_travel_times(route)
 
-    # =====================================================
-    # FINISH
-    # =====================================================
+        # =====================================================
+        # GTFS OBJECTS
+        # =====================================================
 
-    ui.finish(parser)
+        trip_generator = TripGenerator()
+
+        trips = trip_generator.generate(
+            routes
+        )
+
+        schedule_generator = ScheduleGenerator()
+
+        stop_times = schedule_generator.generate(
+            trips,
+            routes
+        )
+
+        # =====================================================
+        # EXPORT
+        # =====================================================
+
+        exporter = GTFSExporter(project)
+
+        exporter.export_stops(stops)
+        exporter.export_routes(routes)
+        exporter.export_shapes(routes)
+        exporter.export_trips(trips)
+        exporter.export_stop_times(stop_times)
+        exporter.export_agency()
+        exporter.export_calendar()
+        exporter.export_feed_info()
+        exporter.export_zip()
+
+        # =====================================================
+        # FINISH
+        # =====================================================
+
+        ui.finish(parser)
 
 
 if __name__ == "__main__":

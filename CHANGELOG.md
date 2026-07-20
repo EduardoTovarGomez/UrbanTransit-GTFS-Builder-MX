@@ -4,6 +4,33 @@ Todos los cambios importantes del proyecto se documentan aquí.
 
 ---
 
+# v0.8.0
+
+## Added
+
+- Time Engine
+- Shape cumulative distances
+- Automatic travel time calculation
+- Dynamic schedules
+- Automatic KML loader
+- Automatic project naming
+- ZIP named after project
+- Cleaner console output
+- DEBUG mode
+
+## Improved
+
+- Route matching
+- Schedule generation
+- Export process
+- Console UI
+
+## Fixed
+
+- agency_id warnings
+- GTFS validator warnings
+- duplicated exporter messages
+
 # v0.3.0 — Shape Engine
 
 Fecha: Junio 2026

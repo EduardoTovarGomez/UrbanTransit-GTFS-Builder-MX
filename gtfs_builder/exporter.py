@@ -17,7 +17,9 @@ from gtfs_builder import config
 
 class GTFSExporter:
 
-    def __init__(self):
+    def __init__(self, project):
+
+        self.project = project
 
         self.output_folder = Path(config.OUTPUT_FOLDER)
         self.output_folder.mkdir(exist_ok=True)
@@ -400,42 +402,26 @@ class GTFSExporter:
 
     def export_zip(self):
 
+        print("\n📦 Generando archivo ZIP...")
+
         zip_name = (
-
             self.archive_folder
-
-            / f"GTFS_{config.FEED_VERSION}.zip"
-
+            /
+            f"{self.project.stem}-GTFS.zip"
         )
 
         with zipfile.ZipFile(
-
             zip_name,
-
             "w",
-
             zipfile.ZIP_DEFLATED
-
         ) as zipf:
 
             for file in self.output_folder.glob("*.txt"):
 
                 zipf.write(
-
                     file,
-
                     arcname=file.name
-
                 )
 
-        print("\n===================================")
-        print("EXPORTER")
-        print("===================================")
-
-        print(
-            f"✅ 8 archivos GTFS exportados"
-        )
-
-        print(
-            f"📦 ZIP generado: {zip_name}"
-        )
+        print("✅ Archivo ZIP generado.")
+        print(f"📂 Guardado en: {zip_name.resolve()}")

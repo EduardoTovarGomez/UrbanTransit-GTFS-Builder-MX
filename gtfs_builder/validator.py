@@ -4,14 +4,13 @@ UrbanTransit GTFS Builder MX
 Archivo:
 validator.py
 
-Versión:
-v0.6 - Sprint 4
-
 Descripción:
-Realiza validaciones antes de generar el GTFS.
+Validaciones previas a la generación del GTFS.
 """
 
 from collections import Counter
+
+from gtfs_builder import config
 
 
 class ProjectValidator:
@@ -20,62 +19,86 @@ class ProjectValidator:
 
         self.parser = parser
 
+    # =====================================================
+    # VALIDATION
+    # =====================================================
+
     def validate(self):
 
-        print("\n" + "=" * 35)
-        print("VALIDANDO PROYECTO")
-        print("=" * 35)
+        print("\n🔎 Validando proyecto...")
 
         self.validate_routes()
         self.validate_stops()
         self.check_duplicate_stop_names()
 
-        print("\n✅ Validación finalizada.")
+        print("✅ Validación completada.")
 
-    # =====================================
+    # =====================================================
+    # ROUTES
+    # =====================================================
 
     def validate_routes(self):
 
-        if len(self.parser.routes) == 0:
+        total = len(self.parser.routes)
+
+        if total == 0:
 
             print("❌ No se encontraron rutas.")
 
-        else:
+        elif config.DEBUG:
 
-            print(f"✅ {len(self.parser.routes)} rutas detectadas.")
+            print(f"✅ {total} rutas detectadas.")
 
-    # =====================================
+    # =====================================================
+    # STOPS
+    # =====================================================
 
     def validate_stops(self):
 
-        if len(self.parser.stops) == 0:
+        total = len(self.parser.stops)
+
+        if total == 0:
 
             print("❌ No se encontraron paradas.")
 
-        else:
+        elif config.DEBUG:
 
-            print(f"✅ {len(self.parser.stops)} paradas detectadas.")
+            print(f"✅ {total} paradas detectadas.")
 
-    # =====================================
+    # =====================================================
+    # DUPLICATE STOP NAMES
+    # =====================================================
 
     def check_duplicate_stop_names(self):
 
-        names = [stop.name for stop in self.parser.stops]
+        names = [
 
-        duplicates = [
-            name
-            for name, count in Counter(names).items()
-            if count > 1
+            stop.name
+
+            for stop in self.parser.stops
+
         ]
 
-        if duplicates:
+        duplicates = [
 
-            print("\n⚠ Paradas con nombres repetidos:")
+            name
 
-            for name in duplicates:
+            for name, count in Counter(names).items()
 
-                print(f"   • {name}")
+            if count > 1
 
-        else:
+        ]
 
-            print("✅ No hay nombres repetidos.")
+        if not duplicates:
+
+            if config.DEBUG:
+
+                print("✅ No hay nombres repetidos.")
+
+            return
+
+        print("\n⚠ Paradas con nombres repetidos:")
+
+        for name in duplicates:
+
+            print(f"   • {name}")

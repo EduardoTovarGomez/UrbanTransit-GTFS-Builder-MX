@@ -3,13 +3,11 @@ Configuración global del proyecto
 UrbanTransit GTFS Builder MX
 """
 
-
 # ==========================
 # Rutas
 # ==========================
-INPUT_KML = "data/kml/RutaA Tuxtla.kml"
+INPUT_FOLDER = "data/kml"
 OUTPUT_FOLDER = "output"
-
 
 # ==========================
 # Agencia
@@ -17,7 +15,6 @@ OUTPUT_FOLDER = "output"
 AGENCY_ID = 1
 AGENCY_NAME = "Secretaría de Movilidad y Transporte"
 AGENCY_URL = "https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx"
-
 
 # ==========================
 # GTFS
@@ -29,8 +26,7 @@ SERVICE_ID = "WEEKDAY"
 START_DATE = "20260101"
 END_DATE = "20261231"
 
-FEED_VERSION = "0.6.0-dev"
-
+FEED_VERSION = "0.8.0"
 
 # ==========================================
 # Spatial Engine
@@ -60,7 +56,7 @@ SPEED_PROFILE = {
 # Proyecto
 # ==========================
 PROJECT_NAME = "UrbanTransit GTFS Builder MX"
-PROJECT_EDITION = "Professional Core Edition"
+PROJECT_EDITION = "Professional Edition"
 PROJECT_TAGLINE = (
     "Conversión de información geográfica "
     "en datos abiertos para el transporte."

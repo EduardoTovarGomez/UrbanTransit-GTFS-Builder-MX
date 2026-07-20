@@ -9,7 +9,7 @@ class ScheduleGenerator:
     def generate(self, trips, routes):
 
         print("\n===================================")
-        print("SCHEDULE GENERATOR")
+        print("GENERANDO HORARIOS")
         print("===================================")
 
         stop_times = []

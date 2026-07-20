@@ -1,3 +1,14 @@
+"""
+UrbanTransit GTFS Builder MX
+---------------------------------
+Archivo:
+trip_generator.py
+
+Descripción:
+Genera los viajes (trips) del feed GTFS.
+"""
+
+from gtfs_builder import config
 from gtfs_builder.models import Trip
 
 
@@ -5,7 +16,7 @@ class TripGenerator:
 
     def generate(self, routes):
 
-        print("\n🚌 Generando viajes...\n")
+        print("\n🚌 Generando viajes...")
 
         trips = []
 
@@ -20,11 +31,13 @@ class TripGenerator:
 
             trips.append(trip)
 
-            print(
-                f"✔ {trip.trip_id} "
-                f"(Ruta {route.route_id}: {route.name})"
-            )
+            if config.DEBUG:
 
-        print(f"\n✅ {len(trips)} viajes generados.")
+                print(
+                    f"   ✔ {trip.trip_id}"
+                    f" ({route.name})"
+                )
+
+        print(f"✅ {len(trips)} viajes generados.")
 
         return trips

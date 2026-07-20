@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from gtfs_builder import config
 from gtfs_builder.models import Stop, Route
 
 
@@ -16,6 +17,10 @@ class KMLParser:
         self.stops = []
         self.routes = []
 
+    # =====================================================
+    # LOAD
+    # =====================================================
+
     def load(self):
 
         self.tree = ET.parse(self.file_path)
@@ -23,15 +28,24 @@ class KMLParser:
 
         print("✅ KML cargado correctamente.")
 
+    # =====================================================
+    # PARSE
+    # =====================================================
+
     def parse(self):
 
-        print("\nAnalizando elementos...\n")
+        print("\n🔍 Analizando archivo KML...")
 
         placemarks = self.root.findall(
             ".//{http://www.opengis.net/kml/2.2}Placemark"
         )
 
-        print(f"Se encontraron {len(placemarks)} elementos.\n")
+        if config.DEBUG:
+
+            print(
+                f"\nSe encontraron "
+                f"{len(placemarks)} elementos.\n"
+            )
 
         for placemark in placemarks:
 
@@ -50,9 +64,9 @@ class KMLParser:
                 "{http://www.opengis.net/kml/2.2}LineString"
             )
 
-            # ==========================
-            # PARADAS
-            # ==========================
+            # =================================================
+            # STOPS
+            # =================================================
 
             if punto is not None:
 
@@ -74,11 +88,13 @@ class KMLParser:
 
                 self.stops.append(stop)
 
-                print(f"🚌 {stop}")
+                if config.DEBUG:
 
-            # ==========================
-            # RUTAS
-            # ==========================
+                    print(f"🚌 {stop}")
+
+            # =================================================
+            # ROUTES
+            # =================================================
 
             elif linea is not None:
 
@@ -95,24 +111,30 @@ class KMLParser:
 
                 description_text = ""
 
-                if description is not None and description.text:
-                    description_text = description.text.strip()
+                if (
+                    description is not None
+                    and description.text
+                ):
+                    description_text = (
+                        description.text.strip()
+                    )
 
-                puntos = coords.text.strip().split()
+                points = coords.text.strip().split()
 
                 route = Route(
                     route_id=len(self.routes) + 1,
                     name=nombre.text.strip(),
                     description=description_text,
-                    points=puntos
+                    points=points
                 )
 
                 self.routes.append(route)
 
-                print(f"🛣️ {route}")
+                if config.DEBUG:
 
-        print("\n===================================")
-        print("RESUMEN DEL PARSER")
-        print("===================================")
-        print(f"Paradas encontradas : {len(self.stops)}")
-        print(f"Rutas encontradas   : {len(self.routes)}")
+                    print(f"🛣️ {route}")
+
+        print(
+            f"✅ {len(self.stops)} paradas y "
+            f"{len(self.routes)} rutas cargadas."
+        )
