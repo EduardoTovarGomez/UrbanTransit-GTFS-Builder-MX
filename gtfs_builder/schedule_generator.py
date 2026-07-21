@@ -60,14 +60,11 @@ class ScheduleGenerator:
                     StopTime(
 
                         trip_id=trip.trip_id,
-
                         arrival_time=time_string,
-
                         departure_time=time_string,
-
                         stop_id=matched_stop.stop.stop_id,
-
-                        stop_sequence=sequence
+                        stop_sequence=sequence,
+                        shape_dist_traveled=matched_stop.distance_from_start
 
                     )
 

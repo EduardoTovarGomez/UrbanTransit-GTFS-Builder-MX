@@ -1,2 +1,2 @@
 feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url
-Secretaría de Movilidad y Transporte,https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx,es,20260101,20261231,0.6.0-dev,eduardo.tovar10@unach.mx,https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx
+Secretaría de Movilidad y Transporte,https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx,es,20260101,20261231,0.8.0,eduardo.tovar10@unach.mx,https://github.com/EduardoTovarGomez/urbantransit-gtfs-builder-mx

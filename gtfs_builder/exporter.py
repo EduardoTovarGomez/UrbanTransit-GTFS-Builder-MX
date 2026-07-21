@@ -144,7 +144,14 @@ class GTFSExporter:
 
                     float(lon),
 
-                    sequence
+                    sequence,
+
+                    round(
+                        route.shape_distances[
+                            sequence - 1
+                        ],
+                        2
+                    )
 
                 ])
 
@@ -156,7 +163,8 @@ class GTFSExporter:
                 "shape_id",
                 "shape_pt_lat",
                 "shape_pt_lon",
-                "shape_pt_sequence"
+                "shape_pt_sequence",
+                "shape_dist_traveled"
             ],
 
             rows
@@ -220,7 +228,9 @@ class GTFSExporter:
 
                 stop_time.stop_id,
 
-                stop_time.stop_sequence
+                stop_time.stop_sequence,
+                
+                round(stop_time.shape_dist_traveled, 2)
 
             ]
 
@@ -237,7 +247,8 @@ class GTFSExporter:
                 "arrival_time",
                 "departure_time",
                 "stop_id",
-                "stop_sequence"
+                "stop_sequence",
+                "shape_dist_traveled"
             ],
 
             rows

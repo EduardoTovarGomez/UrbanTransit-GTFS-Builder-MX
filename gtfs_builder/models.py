@@ -67,7 +67,8 @@ class StopTime:
         arrival_time,
         departure_time,
         stop_id,
-        stop_sequence
+        stop_sequence,
+        shape_dist_traveled
     ):
 
         self.trip_id = trip_id
@@ -75,6 +76,7 @@ class StopTime:
         self.departure_time = departure_time
         self.stop_id = stop_id
         self.stop_sequence = stop_sequence
+        self.shape_dist_traveled = shape_dist_traveled
 
     def __str__(self):
 
@@ -91,7 +93,11 @@ class StopTime:
             "arrival_time": self.arrival_time,
             "departure_time": self.departure_time,
             "stop_id": self.stop_id,
-            "stop_sequence": self.stop_sequence
+            "stop_sequence": self.stop_sequence,
+            "shape_dist_traveled": round(
+                self.shape_dist_traveled,
+                2
+            )
         }
 
 
