@@ -47,16 +47,39 @@ class Route:
 
 class Trip:
 
-    def __init__(self, trip_id, route_id, shape_id, service_id):
+    def __init__(
+        self,
+        trip_id,
+        route_id,
+        shape_id,
+        service_id,
+        departure_time
+    ):
 
         self.trip_id = trip_id
         self.route_id = route_id
         self.shape_id = shape_id
         self.service_id = service_id
+        self.departure_time = departure_time
 
     def __str__(self):
 
-        return self.trip_id
+        return (
+            f"{self.trip_id}"
+            f" ({self.departure_time})"
+        )
+
+    def to_dict(self):
+
+        return {
+
+            "trip_id": self.trip_id,
+            "route_id": self.route_id,
+            "shape_id": self.shape_id,
+            "service_id": self.service_id,
+            "departure_time": self.departure_time
+
+        }
 
 
 class StopTime:

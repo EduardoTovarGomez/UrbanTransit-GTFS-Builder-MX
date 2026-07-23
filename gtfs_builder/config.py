@@ -53,6 +53,16 @@ SPEED_PROFILE = {
 }
 
 # ==========================
+# Servicio
+# ==========================
+
+FIRST_TRIP = "05:00:00"
+
+LAST_TRIP = "21:30:00"
+
+HEADWAY_MINUTES = 15
+
+# ==========================
 # Proyecto
 # ==========================
 PROJECT_NAME = "UrbanTransit GTFS Builder MX"
